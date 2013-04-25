@@ -1,0 +1,47 @@
+/* line 2, ../sass/state.scss */
+.is-fixed {
+  position: fixed;
+  top: 20px;
+  top: 2rem;
+  background: #303030;
+  background: rgba(255, 255, 255, 0.1); }
+  @media (max-width: 768px) {
+    /* line 2, ../sass/state.scss */
+    .is-fixed {
+      position: relative;
+      top: 0px;
+      top: 0rem;
+      background: none;
+      background: rgba(255, 255, 255, 0); } }
+  /* line 13, ../sass/state.scss */
+  .is-fixed.navigation {
+    margin-left: -10px;
+    margin-left: -1rem;
+    padding: 10px;
+    padding: 1rem;
+    padding-left: 20px;
+    padding-left: 2rem;
+    border-left: 3px solid #6EBCFF; }
+    @media (max-width: 768px) {
+      /* line 13, ../sass/state.scss */
+      .is-fixed.navigation {
+        margin-left: 0px;
+        margin-left: 0rem;
+        padding: 0px;
+        padding: 0rem;
+        padding-left: 0px;
+        padding-left: 0rem;
+        border-left: none; } }
+
+/* line 26, ../sass/state.scss */
+.is-shown {
+  display: block; }
+  /* line 28, ../sass/state.scss */
+  .is-shown.portfolio_view, .is-shown.portfolio_view > .img {
+    /* @include a-dim("padding", 3); */
+    height: 400px;
+    height: 40rem; }
+
+/* line 33, ../sass/state.scss */
+.is-hidden {
+  display: none; }

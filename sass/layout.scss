@@ -1,0 +1,52 @@
+@import "config.scss";
+
+.l-wrap {
+	max-width: 1100px;
+	margin:0 auto;		
+	position: relative;
+	@include floatFix;		
+		
+	>.l-content {
+		width: 77%;
+		margin-left: 2%;
+		margin-right:1%;
+		@media (max-width: 940px) {
+			width: 67%;
+		}
+		@media (max-width: 550px) {
+			width: 98%;
+			margin-left: 1%;
+			margin-right:1%;
+		}
+	}
+	>.l-menu {
+		width:19%;				
+		margin-left:1%;
+		@media (max-width: 940px) {
+			width:29%;				
+		}
+		@media (max-width: 550px) {
+			width: 96%;
+			margin-left: 2%;
+			margin-right:2%;
+		}
+	}		
+	>div {
+		float: left;
+		@media (max-width: 550px) {
+			float:none;
+		}
+	}	
+}
+.l-footer {
+		max-width: 1100px;
+		margin:0 auto;		
+		@include a-dim("margin-top", 20);		
+		/* border-top: 1px solid #838383; */
+		>.copyright {
+			@include a-bgOpacity(#fff, 0.1, #505050);
+			text-align: center;
+			@include a-dim("padding", 5);
+			@include a-fontSize(11);
+		}
+}

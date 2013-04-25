@@ -1,0 +1,513 @@
+@import "config.scss";
+
+h1 > span {
+		@include a-fontSize(28);
+		color:$subtitles-color;
+		@media (max-width: 755px) {
+			display: block;
+			@include a-fontSize(28,28);
+		}
+		@media (max-width: 550px) and (min-width: 320px) {
+			text-align: center;
+		}
+	}
+
+.menu {
+	@include a-dim("margin-top", 10);
+	>.myphoto>img {
+		@extend %imgResponsive;
+		@include border-radius(5px, 5px);
+		}
+	>.navigation {
+		@include a-dim("margin-top", 10);
+		@media (max-width: 550px) {
+			@include a-fontSize(21);
+			@include column-count(2);
+			width:320px;
+			text-align: center;
+			margin:0 auto;
+			@include a-dim("margin-top", 10);
+		}
+		@media (max-width: 350px) {
+			width:100%;
+			text-align: left;
+		}
+		@include transition(top 0.3s ease-in-out);
+		@include border-radius(5px, 5px);
+		>li {
+			>a {
+				color:$menuColor;
+				font-family: 'Bubblegum Sans', sans-serif;
+				@include a-fontSize(21);
+				@media (max-width: 768px) {
+					@include a-fontSize(16);
+				}
+				display: block;
+ 				@include transition(all 0.1s ease-in-out);
+
+ 				text-shadow: 2px 2px 2px #000000;
+        		filter: dropshadow(color=#000000, offx=2, offy=2);
+
+				&:hover {
+					color:$menuHoverColor;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+.myinfo {
+	@include a-dim("margin-top", 15);
+	@media (max-width: 550px) {
+		@include column-count(2);
+		width:320px;
+		margin:0 auto;
+		@include a-dim("margin-top", 15);
+		@include a-bgOpacity(#FFF, 0.09, #505050);
+	}
+	@media (max-width: 350px) {
+		width:100%;
+	}
+	>div:before {
+		display: inline-block;
+		@include a-dim("width", 25);
+	}
+
+	@for $i from 1 through length($socIconCode) {
+	  >.#{nth($socIconClass, $i)} {
+	    @include a-fontIcon(nth($socIconCode, $i),"FontAwesome");
+	  }
+	}
+}
+ul.me {
+	@include a-bgOpacity(#FFF, 0.09, #383838);
+	@include a-dim("padding", 10);
+	@include a-dim("margin-top", 10);
+	@include border-radius(5px, 5px);
+	width: 70%;
+	margin-left: 5%;
+	@include box-sizing(border-box);
+	@media (max-width: 940px) {
+		width: 100%;
+		margin-left: 0;
+	}
+	> li {
+		> span {
+			color:$subtitles-color;
+			display: inline-block;
+			@include a-dim("width", 130);
+			@include a-dim("margin-left", 30);
+			@media (max-width: 650px) {
+				display: inline;
+				@include a-dim("margin-left", 10);
+				@include a-dim("padding-right", 10);
+			}
+		}
+	}
+}
+.info {
+	@include a-dim("margin-top", 15);
+	font-style: italic;
+}
+//$icons: sprite-map("icons/*.png", $spacing: 10px);
+.soc {
+	@include a-dim("margin-top", 15);
+		@include floatFix;
+		@include a-dim("margin-top", 5);
+		@media (max-width: 550px) {
+			text-align: center;
+		}
+		>li {
+			display: inline-block;
+		}
+		$socIcon: "R", "T", "F", "I", "G", "X";
+		@for $i from 1 through length($socIcon) {
+		  >.soc_#{$i} > a {
+		  	@include a-fontIcon(nth($socIcon,$i),"Social");
+		  	@include a-fontSize(50);
+			display: block;
+			@include a-dim("margin-right", 5);
+		    @include transition(all 0.314s ease-in-out);
+		    &:before {
+		    	color:#FFF;
+		    	width:auto;
+		    }
+		    &:hover:before {
+		    	text-decoration: none;
+		    	color:#ffcc33;
+		    }
+		  }
+		}
+
+
+}
+.rate {
+	@include a-dim("margin-top", 20);
+	@include column-count(2);
+	@media (max-width: 920px) {
+		@include column-count(1);
+	}
+	>li {
+		.ie7 & {
+			margin-top:3px;
+		}
+		> span {
+			@include a-dim("width", 200);
+			height:20px;
+			color:$starActive;
+			display:inline-block;
+			@include a-fontSize(18);
+			@media (max-width: 400px) {
+				@include a-fontSize(12);
+				width:auto;
+			}
+			letter-spacing: 3px;
+		}
+		@for $i from 1 through 10 {
+		  	>span.rate#{$i} {
+		    	@include a-fontIcon(nth($rate, $i), "FontAwesome");
+
+				.ie7 & {
+		  			$stars:$i*30;
+			    	@include a-fontIcon(nth($rate, $i), "FontAwesome");
+			    	background:#f9d766;
+					width:$stars+px;
+		  		}
+
+		    	&:before {
+		    		color:#ffcc33;
+		    		width: auto;
+		    	}
+		  	}
+		}
+		> span.title {
+			@include a-dim("width", 130);
+			@include a-dim("padding-right", 10);
+			display:inline-block;
+			color:#fff;
+			@media (max-width: 550px) {
+				text-align: left;
+			}
+			@include a-fontSize(12);
+			font-weight: bold;
+			letter-spacing: 0;
+		}
+	}
+}
+.rate_info {
+	@include a-fontSize(12);
+	@include a-dim("margin-top", 10);
+}
+
+.skills {
+	@include a-dim("margin-top", 20);
+	> p > strong {
+		@include a-fontSize(16);
+		display: inline-block;
+		@include a-dim("margin-right", 10);
+	}
+}
+.experience {
+	@include floatFix;
+	@include a-dim("margin-top", 10);
+	@media (max-width: 980px) {
+
+	}
+	>.item {
+		@include box-sizing(border-box);
+		margin-left:1%;
+		margin-right:1%;
+		@include a-dim("margin-top", 5);
+		@include a-dim("margin-bottom", 5);
+		float:left;
+		width:48%;
+		@include a-dim("min-height", 340);
+		.ie7 & {
+			height:auto !important;
+  			height:500px;
+		}
+		@media (max-width: 980px) {
+			width:98%;
+			@include a-dim("min-height", 0);
+		}
+		>.title {
+			@include a-dim("margin-left", 15);
+			@include a-dim("margin-top", 15);
+			border-left:2px solid #fff;
+			width:60%;
+			@include a-bgOpacity(#FFF, 0.09, #505050);
+			> li {
+				@include a-dim("padding-left", 10);
+				&.position {
+					@include a-fontIcon("\f0f2", "FontAwesome");
+				}
+				&.url {
+					@include a-fontIcon("\f0ac", "FontAwesome");
+				}
+				&.director {
+					@include a-fontIcon("\f0c0", "FontAwesome");
+				}
+				&.date {
+					@include a-fontIcon("\f073", "FontAwesome");
+				}
+			}
+		}
+		>.img {
+			@include a-dim("width", 65);
+			@include a-dim("margin", 10);
+			float:right;
+			>img {
+				@extend %imgResponsive;
+			}
+		}
+		>.description {
+			@include a-dim("margin", 20);
+			@include a-dim("text-indent", 15);
+			@include a-fontSize(14);
+		}
+	}
+}
+.portfolio_cont {
+	font-style: italic;
+}
+.portfolio_view {
+	@include a-dim("margin-top", 15);
+	background:#FFF;
+	@include a-dim("height", 0);
+	@include transition(all 0.5s ease-in-out);
+	position: relative;
+	@include a-dim("margin-left", -10);
+	>.img {
+		@include a-dim("height", 0);
+		@include transition(all 0.5s ease-in-out);
+		/* @include opacity(70); */
+		background: #2a2a2a;
+		width: 100%;
+		overflow: auto;
+
+		@media (max-width: 820px) {
+			overflow: hidden;
+		}
+		>img {
+			@extend %imgResponsive;
+		}
+		&:hover {
+			/* @include opacity(100); */
+		}
+	}
+}
+.portfolio_filters_info {
+	@include a-dim("margin-top", 10);
+	@include a-bgOpacity(#000, 0.1, #505050);
+	@include a-dim("padding", 15);
+	display: inline-block;
+	>.portfolio_filters_info_category {
+		font-weight: bold;
+	}
+	>.portfolio_filters_info_value {
+		color:#ffcc33;
+	}
+}
+.portfolio-filters {
+	@include column-count(2);
+	>div {
+		@include a-dim("margin-top", 10);
+		display: inline-block;
+		>ul {
+			>li {
+				cursor: pointer;
+				display: inline-block;
+				@include a-dim("padding", 2);
+				@include a-dim("padding-right", 8);
+				&:hover{
+					@include a-bgOpacity(#000, 0.1, #505050);
+					>span {
+						color:#ffcc33;
+					}
+				}
+				> .count {
+					display: inline-block;
+					font-weight:bold;
+					@include a-dim("width", 18);
+					text-align: center;
+					@include a-dim("margin-right", 5);
+					@include a-bgOpacity(#fff, 0.1, #505050);
+					@include a-fontSize(10, 17);
+				}
+				> .select {
+
+				}
+			}
+		}
+
+	}
+}
+.portfolio {
+	@include floatFix;
+	@include a-dim("margin-top", 15);
+
+	>.item {
+		margin-right:1%;
+		float:left;
+		width:45%;
+		@include a-dim("min-height", 235);
+		@include a-bgOpacity(#000, 0.1, #505050);
+		@include transition(all 0.1s ease-in-out);
+		cursor: pointer;
+		@include a-dim("margin-bottom", 5);
+		@include a-dim("padding-bottom", 5);
+		@include a-dim("padding-top", 5);
+		padding-left:1%;
+		padding-right:1%;
+		border-left:2px solid #6EBCFF;
+
+
+
+		@media (max-width: 800px) {
+			width:98%;
+			@include a-dim("min-height", 0);
+		}
+
+		.ie7 & {
+			width:98%;
+			height:auto !important;
+  			height:500px;
+			background:none;
+		}
+		&:hover{
+			@include a-bgOpacity(#000, 0.2, #2a2a2a);
+			border-left:2px solid #ffcc33;
+		}
+		>.title {
+			@include a-dim("margin-bottom", 15);
+			>h3 {
+				@include a-dim("margin", 5);
+				@include a-fontSize(15);
+			}
+			> div, >ul {
+				margin-left:6%;
+				@include a-bgOpacity(#FFF, 0.09, #505050);
+				padding-left: 10px;
+				width:80%;
+			}
+			>ul > li {
+				display: inline;
+			}
+			>.year {
+				@include a-fontIcon("\f073", "FontAwesome");
+			}
+			>.url {
+				@include a-fontIcon("\f0ac", "FontAwesome");
+			}
+			>.company {
+				@include a-fontIcon("\f015", "FontAwesome");
+			}
+		}
+		>.info {
+			@include a-dim("margin", 5);
+		}
+		>.tools, >.role {
+			@include a-fontIcon("\f0ad", "FontAwesome");
+			@include a-dim("margin", 10);
+			@include a-dim("margin-top", 15);
+			@include a-dim("margin-bottom", 2);
+			>li{
+				display: inline-block;
+				@include a-dim("padding-right", 5);
+				&:after {
+					content:",";
+				}
+				&:last-child:after {
+					content:".";
+				}
+			}
+		}
+		>.role {
+			@include a-dim("margin-top", 0);
+			@include a-fontIcon("\f0b1", "FontAwesome");
+		}
+		>.img {
+			@include opacity(80);
+			position: relative;
+			overflow: hidden;
+			cursor: auto;
+			overflow: hidden;
+			display: none;
+			background: #FFF;
+			&:hover {
+				@include opacity(100);
+			}
+			>img {
+				@extend %imgResponsive;
+			}
+			>span {
+				position: absolute;
+				bottom:0;
+				z-index:100;
+				@include a-fontSize(14);
+				display: block;
+				@include a-dim("padding", 5);
+				@include transition(all 0.5s ease-in-out);
+				@include a-bgOpacity(#000, 0.8, #505050);
+			}
+			&:hover > span {
+				@include opacity(100);
+			}
+		}
+	}
+}
+.i-equipment {
+	margin-left:3%;
+	@include a-dim("margin", 15);
+	>li {
+		@include a-fontIcon("\f0a9", "FontAwesome");
+		>span {
+			display: inline-block;
+			@include a-dim("margin-right", 10);
+			color:$subtitles-color;
+		}
+	}
+}
+.send_cont {
+	>form {
+		>div {
+			@include a-dim("margin-top", 5);
+			>label {
+				display: inline-block;
+				@include a-dim("width", 120);
+			}
+			> input, >textarea {
+				border:1px solid #fff;
+				@include a-dim("padding", 2);
+				background:#fffbf0;
+				@include border-radius(3px, 3px);
+				-moz-box-shadow: 0 0 5px #888;
+				-webkit-box-shadow: 0 0 5px #FFF;
+				box-shadow: 0 0 5px #FFF;
+				&:hover {
+					-moz-box-shadow: 0 0 5px #ffdd77;
+					-webkit-box-shadow: 0 0 5px #ffdd77;
+					box-shadow: 0 0 5px #ffdd77;
+				}
+			}
+		}
+		>.text {
+			>textarea {
+				width:100%;
+			}
+		}
+		>.submit {
+			>input {
+				background:#2077c1;
+				@include a-dim("padding", 5);
+				@include a-dim("padding-left", 25);
+				@include a-dim("padding-right", 25);
+				color:#fff;
+				&:active {
+					color:#ffcc33;
+					background:#295e8c;
+				}
+			}
+		}
+	}
+}

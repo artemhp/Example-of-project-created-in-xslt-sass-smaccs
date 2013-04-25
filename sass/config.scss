@@ -1,0 +1,30 @@
+@import "compass";
+
+@import "a-mixins.scss";
+
+$site-color:#FFF;
+$subtitles-color:#FFCC33;
+$baseFontSize:14px;
+
+$menuColor:#FFF;
+$menuHoverColor:#ffcc33;
+
+$filters-title-color: #fff9b9;
+
+$starActive:#FFCC33;
+
+$rate: 
+"\f005\f006\f006\f006\f006\f006\f006\f006\f006\f006",
+"\f005\f005\f006\f006\f006\f006\f006\f006\f006\f006",
+"\f005\f005\f005\f006\f006\f006\f006\f006\f006\f006",
+"\f005\f005\f005\f005\f006\f006\f006\f006\f006\f006",
+"\f005\f005\f005\f005\f005\f006\f006\f006\f006\f006",
+"\f005\f005\f005\f005\f005\f005\f006\f006\f006\f006",
+"\f005\f005\f005\f005\f005\f005\f005\f006\f006\f006",
+"\f005\f005\f005\f005\f005\f005\f005\f005\f006\f006",
+"\f005\f005\f005\f005\f005\f005\f005\f005\f005\f006",
+"\f005\f005\f005\f005\f005\f005\f005\f005\f005\f005";
+
+
+$socIconClass: phone,   name,    position,	mail,    skype,   year;
+$socIconCode:  "\f095", "\f007", "\f0b1",	"\f0e0", "\f0e5", "\f073";

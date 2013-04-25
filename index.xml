@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./index.xsl" type="text/xsl"?>
+<site>
+	<title>Artem Deykun <span>Front-End Developer</span></title>
+	<myphoto>
+		<src>./img/photo.jpg</src>
+		<alt>Watching Simpsons in headphones</alt>
+	</myphoto>
+	<myinfo>
+		<name>Artem Deykun</name>
+		<year>25 years</year>
+		<position>Front-End Developer</position>
+		<phone>+380930149790</phone>
+		<mail>artem@deykun.com</mail>
+		<skype>skype: artemhp</skype>
+	</myinfo>
+	<footer>
+		<copyright>Lorem ipsum dolor sit amet.</copyright>
+	</footer>
+	<navigation>
+		<item name="General Info" title_display="hide">
+			<me>				
+				<item title="Nationality">Ukrainian</item>				
+				<item title="City">Kiyv</item>
+				<item title="Birthday">05.05.1988</item>
+				<item title="Civil status">married to Ludmila Deykun</item>
+				<item title="Specialization">Web-developer, System Administrator</item>
+				<item title="Work/Position">EcomDev / Front End Developer</item>
+				<item title="Work Address">Ukraine. Kiyv. Mashinobudivska street</item>
+				<item title="Languages">Ukrainian, Russian, English</item>
+				<item title="Phone">mobile: +380930149790; skype: artemhp</item>
+				<item title="E-mail">artem@deykun.com</item>
+			</me>			
+			<content class="info">
+				I have started my career as a web-project manager and now I'm a 
+				Web Developer with more than 8 years of well-rounded experience. 
+				My skills include HTML, CSS, LAMP administrating and Graphic Design. 
+				I also have experience with SEO and Internet Advertising.
+			</content>
+		</item>
+		<item name="Social Networks" title_display="hide">			
+			<soc>
+				<link name="RSS">deykun.com</link>
+				<link name="Twitter">twitter.com/deykun</link>
+				<link name="Facebook">facebook.com/deykun</link>
+				<link name="LinkedIn">ua.linkedin.com/in/deykun</link>
+				<link name="Google">https://plus.google.com/105787874856080534370</link>
+				<link name="YouTube">www.youtube.com/artemhp</link>
+			</soc>
+		</item>
+		<item name="Objective" title_display="show">
+			<content>
+				<p>
+					I want to achieve high quality development of web applications and services, 
+					to be a reliable partner and worker. At the beginning of 
+					career I have tried myself in different areas of IT industry - 
+					from manager to backend developer. Now I'm concentrated on web-development 
+					PHP-programming, JavaScript and HTML makeup for Magento systems.
+				</p>
+				<p>
+					For long time I have been preferred freelance work, but now I see more 
+					opportunities to cultivate my knowledge and experience working as an 
+					employee in IT company, nevertheless, have few own projects (as blog, 
+					themed web-sites, developing own CMS) and sources of income (creating 
+					web-sites) in a free time.
+				</p>
+			</content>
+		</item>
+		<item name="Skills" title_display="show">
+			<rate>
+				<item title="HTML/CSS" rate="10">
+					Ranking above is my own evaluation of my skills in reference to each other. 
+					So, the highest score has HTML/CSS because in my opinion developing layout 
+					is the best I do, and with the knowledge of JavaScript I'm pretty good 
+					front end developer.
+				</item>				
+				<item title="XML/XSLT" rate="7">
+					Ranking above is my own evaluation of my skills in reference to each other. 
+					So, the highest score has HTML/CSS because in my opinion developing layout 
+					is the best I do, and with the knowledge of JavaScript I'm pretty good 
+					front end developer.
+				</item>
+				<item title="Responsive Design" rate="9">
+					Ranking above is my own evaluation of my skills in reference to each other. 
+					So, the highest score has HTML/CSS because in my opinion developing layout 
+					is the best I do, and with the knowledge of JavaScript I'm pretty good 
+					front end developer.
+				</item>
+				<item title="Preprocessors" rate="8">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, possimus 
+					dolorum tempora expedita omnis sapiente ea nihil magni quibusdam perferendis? 
+					Ea, aut, reprehenderit enim expedita fuga eveniet mollitia velit nisi.
+				</item>
+				<item title="PHP" rate="7">
+					I have experience of PHP-programing above 5 years. In this time 
+					I have written a lot of scripts for CMS's, have developed my own CMS 
+					named DEngine which is very successful and useful for me and supports on 
+					more then 10 sites. Last time I concentrate on developing own templates for 
+					CMSs like Wordpress, Magento and adjusting modules.
+				</item>
+				<item title="JS/jQuery/Prototype" rate="8">
+					Learning JavaScript I started later then PHP but in my current job 
+					I coding in JS much more then in PHP. There are some scripts which 
+					I proud of and I publish it on my personal web-site.
+				</item>
+				<item title="Documentation" rate="9">
+					Architecto earum aspernatur tempora nesciunt cum amet temporibus aliquam non. 
+					Sapiente, quas, dignissimos animi sunt quidem inventore eligendi aliquid 
+					recusandae et fuga quibusdam distinctio earum vero odit iure aperiam tempore!
+				</item>
+				<item title="Windows" rate="7">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, voluptas, 
+					aut dignissimos expedita hic sint atque quo at tempora eligendi eos nemo 
+					dolore aspernatur debitis excepturi quaerat delectus! Obcaecati, explicabo.
+				</item>
+				<item title="UNIX" rate="8">
+					If prefer work in Linux environmental as server and desktop. Since I have 
+					been a student I support Linux servers, later support hostings of Internet 
+					Shops and install one server at parents home. As for me - monitoring Linux 
+					servers is more easily then Windows.
+				</item>
+				<item title="Design" rate="7">
+					Et, molestiae, debitis, atque quaerat vitae cumque commodi deleniti 
+					voluptatum distinctio recusandae esse quibusdam ad sint neque nobis eaque 
+					assumenda deserunt suscipit hic quas facere dignissimos placeat architecto 
+					adipisci consectetur.
+				</item>
+				<item title="SEO" rate="5">
+					Nihil, voluptatibus, iusto fugiat quis veritatis aliquid laboriosam obcaecati 
+					quisquam nobis minima aliquam voluptatum quod vel! Placeat, sed, sint, 
+					doloremque ut consectetur odio illo nesciunt saepe modi voluptatum expedita 
+					delectus.
+				</item>
+				<item title="QA" rate="7">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, eaque 
+					suscipit provident vel beatae sint quidem! Eveniet, quas ullam nihil commodi 
+					debitis repudiandae veniam minus itaque esse fuga? Deleniti, quia.
+				</item>
+			</rate>		
+		</item>
+		<item name="Experience" title_display="show">
+			<content>
+				<p>I have been working in web development for 7 years. Have experience in project management, web-design and OOP programming.<br /> 				
+				For last 3 years I have concentrated all my forces and skill in front-end development.</p>
+			</content>
+			<experience>
+				<item>
+					<company>EcomDev</company>					
+					<logo></logo>
+					<title>
+						<position>Front-End Developer</position>
+						<url>ecomdev.org</url>
+						<director>Andrey Korolyov</director>
+						<date>April 2011 - April 2012</date>						
+					</title>
+					
+					<description>
+						<p>I was invited to the command of developers online stores on Magento as front-end developer.</p>
+						<p>I had the first experience of working in highly qualified programmers team.</p>
+						<p>Ecomdev is working on Europe and USA and main language within company is english - it's a good practice in speaking and writing documentation</p>
+					</description>
+				</item>
+				<item>
+					<company>Design Studio ArtDepo</company>					
+					<logo></logo>
+					<title>
+						<position>Web Developer</position>
+						<url>artdepo.com.ua</url>
+						<director>Michael Heina</director>
+						<date>July 2011 - April 2012</date>
+					</title>
+					<description>
+						<p>After graduation I wished to try myself in company and was interested in stable income. So I choose for work one of the best web-studios in Ukraine.</p>
+						<p>My main task was to programming web-sites based on 1C-Bitrix. Supporting big projects with heavy load on the server.</p>
+						<p>I make my markup HTML pages in a very high level due to very extraordinary designes and scrupulous quality control.</p>
+					</description>
+				</item>
+				<item>
+					<company>Own company - DEngine</company>
+					<logo></logo>
+					<title>
+						<position>CEO, Web Developer</position>
+						<url>dengine.deykun.com</url>
+						<director>Artem Deykun</director>
+						<date>October 2010 - July 2011</date>
+					</title>					
+					<description>
+						<p>Some big projects give me a opportunity to try myself in my own business.</p>
+						<p>Company provided the following services: Developing web-sited based on own CMS DEngine; Administrating Linux, FreeBSD and Windows servers. Supporting web-servers and optimization them; System administrating in offices; Tutoring, private lessons in computer science at home, in companies, in institutes;</p>
+					</description>
+				</item>
+				<item>
+					<company>Infotec</company>
+					<logo></logo>
+					<title>
+						<position>System Administrator</position>
+						<url>infotec.ua</url>
+						<director>Viktor Gurieiev</director>
+						<date>June 2012 - July 2012</date>
+					</title>					
+					<description>
+						<p>In the externship of bachelor I was working in Infotec company. It was something like agency of General Electrics in Ukraine. Main objective - to write software simulator for electrical power stations.</p>
+						<p>My practice got on the period when company was porting programs from Delphi to Java + Oracle and I was responsible for installing and supporting Linux Suse Enterprise and Oracle DB on it.</p>
+					</description>
+				</item>
+				<item>
+					<company>DjOne - internet market of music equipment</company>
+					<logo></logo>
+					<title>
+						<position>Team-lead, Web-Developer</position>
+						<url>djone.com.ua</url>
+						<director>Yuriy Lutchenko</director>
+						<date>May 2008 - September 2012</date>
+					</title>					
+					<description>
+						<p>I has joined the project at the beginning of it development as main programmer. My task was to write a PHP-system for the chain stores musical equipment.</p>
+						<p>In one year was developed DEngine System. And for a three years under my direction project has been in progress. More than 30 plugins was been created. At the second year of life the project should migrate from the hosting to the powerful server. System was adjusted and optimized for MySQL, Apache/nginx servers.</p>
+					</description>
+				</item>
+				<item>
+					<company>Mucos Pharma</company>
+					<logo></logo>
+					<title>
+						<position>Programmer, SEO</position>
+						<url>mucos.com.ua</url>
+						<director>Anatoliy Terzov</director>
+						<date>May 2008 - September 2012</date>
+					</title>					
+					<description>
+						<p>Mucos Pharma Become my first official work with employment records as Software Engineer. I am responsible for development online services. Order huge amount of information in DB MySQL.</p>
+						<p>Responsible for the promotion the production in Internet.</p>
+					</description>
+				</item>
+				<item>
+					<company>Chemical faculty "Kyiv Polytechnic Institute"</company>
+					<logo></logo>
+					<title>
+						<position>System Administrator</position>
+						<url>xtf.kpi.ua</url>
+						<director>Igor Astrelin</director>
+						<date>May 2006 - December 2011</date>
+					</title>					
+					<description>
+						<p>After one year of education I have been joined to Student Science Association of NTUU KPI. Since that time I was involved in many projects like organization of conferences, summer schools.</p>
+						<p>Then I was concentrated on the web-development and designed cafedral web-site, later site of faculty. Take park in supporting internet resources for conferences.</p>
+						<p>Has developed internet journal of students progress in points with private access but project stops in bureaucratic reason.</p>
+					</description>
+				</item>
+				<item>
+					<company>Ukrainian Harry Potter fan-club</company>
+					<logo></logo>
+					<title>
+						<position>Founder and Project Manager</position>
+						<url>hpclub.com.ua</url>
+						<director>Artem Deykun</director>
+						<date>October 2005 - December 2009</date>
+					</title>					
+					<description>
+						<p>In childhood I was very like books Harry Potter, so, when it was really popular in 2005 I decided to organize fan-club. It was my first experience of web-site creation and managing, meeting with sponsors, speaking with press.</p>
+						<p>I have created HTML web-site with over then 100 pages, installed forum on IPB CMS. In 2007 year it was more then 2000 members. I was organizator of premiers and books presentation in Ukraine.</p>
+					</description>
+				</item>
+			</experience>
+		</item>
+		<item name="Portfolio" title_display="show">
+			<content>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, 
+				animi, consectetur aliquid earum perferendis laborum temporibus tempora 
+				explicabo sint mollitia error odio dolorum quas dolore vel incidunt excepturi 
+				aspernatur quia.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, 
+					animi, consectetur aliquid earum perferendis laborum temporibus tempora 
+					explicabo sint mollitia error odio dolorum quas dolore vel incidunt excepturi 
+					aspernatur quia.</p>
+			</content>
+			<portfolio>				
+				<item>
+					<title>Online Shop "Spytronic"</title>
+					<url>spytronic.com</url>
+					<company>
+						<item>EcomDev</item>
+					</company>
+					<year>
+						<item>2013</item>
+					</year>
+					<info>
+						Full refactor existing design and markup to Magento templates.
+						Store in 2 localization - french and english.			
+					</info>
+					<tools>
+						<item>Magento</item>
+						<item>HTML5</item>
+						<item>CSS3</item>
+						<item>PHP5</item>
+						<item>JavaScript</item>
+						<item>Prototype</item>
+					</tools>					
+					<role>
+						<item>front-end developer</item>
+					</role>
+				</item>
+				<item>
+					<title>Online Shop "Montelle"</title>
+					<url>montelle.ca</url>
+					<company>
+						<item>
+							EcomDev
+						</item>						
+					</company>
+					<year>
+						<item>2013</item>
+					</year>
+					<info>Took park in development. Developed custom sliders slider, extention for spots on picture, CMS pages styling</info>
+					<tools>
+						<item>Magento</item>
+						<item>HTML5</item>
+						<item>CSS3</item>
+						<item>JavaScript</item>
+						<item>Prototype</item>
+					</tools>					
+					<role>
+						<item>front-end developer</item>
+					</role>
+				</item>
+				<item>
+					<title>Online Shop "BabyPark"</title>
+					<url>babypark.nl</url>
+					<company>
+						<item>EcomDev</item>
+					</company>
+					<year>
+						<item>2013</item>
+					</year>
+					<info>Project was developed for desktop and mobile devices. A lot of custom elements in forms and popups. Lazy load, quick view in product list. Checkout structure was refactored.</info>
+					<tools>
+						<item>Magento</item>
+						<item>HTML5</item>
+						<item>CSS3</item>
+						<item>Media Queries</item>
+						<item>PHP5</item>
+						<item>JavaScript</item>
+						<item>Prototype</item>
+					</tools>					
+					<role>
+						<item>front-end developer</item>
+					</role>
+				</item>
+				<item>
+					<title>Company "EcomDev"</title>
+					<url>ecomdev.org</url>
+					<company>
+						<item>EcomDev</item>
+					</company>
+					<year>
+						<item>2012</item>
+					</year>
+					<info>Took part in design and developing template. Been main front-end developer for the project.</info>
+					<tools>
+						<item>Wordpress</item>
+						<item>HTML5</item>
+						<item>CSS3</item>
+						<item>PHP5</item>
+						<item>JavaScript</item>
+						<item>Prototype</item>
+					</tools>					
+					<role>
+						<item>front-end developer</item>
+					</role>
+				</item>
+				<item>
+					<title>Online Shop "Prima Ouders"</title>
+					<url>primaouders.nl</url>
+					<company>
+						<item>EcomDev</item>
+					</company>
+					<year>
+						<item>2012</item>
+					</year>
+					<info>My first project in which I fully developed front-end part by myself.
+					Now, it's some modificated with another company developers, but main scripts and layout stay.</info>					
+					<tools>
+						<item>Magento</item>
+						<item>HTML5</item>
+						<item>CSS3</item>
+						<item>PHP5</item>
+						<item>JavaScript</item>
+						<item>Prototype</item>
+					</tools>
+					<role>
+						<item>front-end developer</item>
+					</role>					
+				</item>		
+				<item>
+					<title>TV company "VIASAT Ukraine"</title>
+					<url>viasat-channels.tv</url>
+					<company>
+						<item>Art Depo</item>
+					</company>
+					<year>
+						<item>2012</item>
+					</year>
+					<info>Has developed approvements. Was resposible for stable work administrating server based on Linux. Took part in redesign.</info>					
+					<tools>
+						<item>1C-Bitrix</item>
+						<item>HTML4</item>
+						<item>CSS2</item>
+						<item>PHP5</item>
+						<item>Cufon</item>
+						<item>MySQL</item>
+						<item>JavaScript</item>
+						<item>jQuery</item>
+					</tools>
+					<role>
+						<item>front-end developer</item>
+						<item>back-end developer</item>
+						<item>sytem administrator</item>
+					</role>
+				</item>
+				<item>
+					<title>Restaurant "Colonnada"</title>
+					<url>colonnada.com.ua</url>
+					<company>DEngine</company>
+					<year>
+						<item>2012</item>
+					</year>
+					<info>XMTML Markup and programming. Support project.</info>
+					<tools>
+						<item>Wordpress</item>
+						<item>HTML5</item>
+						<item>CSS3</item>
+						<item>PHP5</item>
+						<item>MySQL</item>
+						<item>JavaScript</item>
+						<item>jQuery</item>						
+					</tools>
+					<role>
+						<item>front-end developer</item>
+						<item>project manager</item>
+					</role>
+				</item>
+				<item>
+					<title>Medication "Wobenzym"</title>
+					<url>wobenzym.com.ua</url>
+					<company>
+						<item>DEngine</item>
+					</company>
+					<year>
+						<item>2012</item>
+					</year>
+					<info>My idea to create separate web-site for promo Mucos Pharma product. SEO optimization</info>
+					<tools>
+						<item>Wordpress</item>
+						<item>HTML5</item>						
+						<item>CSS3</item>
+						<item>Media Queries</item>
+						<item>PHP5</item>
+						<item>MySQL</item>
+						<item>JavaScript</item>
+						<item>jQuery</item>						
+					</tools>
+					<role>
+						<item>front-end developer</item>
+						<item>project manager</item>
+						<item>designer</item>
+					</role>
+				</item>
+				<item>
+					<title>Company "Ecobond"</title>
+					<url>ecobond.ru</url>
+					<company>
+						<item>Art Depo</item>
+					</company>
+					<year>
+						<item>2012</item>
+					</year>
+					<info>My task was to installing and adjusting component of quiz developed in Art Depo.</info>
+					<tools>
+						<item>1C-Bitrix</item>
+						<item>HTML4</item>
+						<item>CSS2</item>
+						<item>PHP5</item>
+						<item>MySQL</item>
+						<item>JavaScript</item>
+						<item>jQuery</item>
+					</tools>
+					<role>
+						<item>front-end developer</item>
+						<item>back-end developer</item>
+					</role>
+				</item>	
+				<item>
+					<title>Design Studio "Art Depo"</title>
+					<url>artdepo.com.ua</url>
+					<company>
+						<item>Art Depo</item>
+					</company>
+					<year>
+						<item>2012</item>
+					</year>
+					<info>Remotely installing and adjusting server based on Linux Debian. Optimization for stable and efficient work of web-server.</info>
+					<tools>Linux (Debian), Apache2, MySQL</tools>
+					<tools>
+						<item>Linux</item>
+						<item>Apache2</item>
+						<item>MySQL Server</item>						
+					</tools>
+					<role>
+						<item>sytem administrator</item>
+					</role>
+				</item>
+				<item>
+					<title>Construction "Energopol-Ukraine"</title>
+					<url>energopol-ukraine.com</url>
+					<company>
+						<item>Art Depo</item>
+					</company>
+					<year>
+						<item>2011</item>
+					</year>
+					<info>Corporate web-site with more then 5 jquery plugins. More time was spent on developing gallery and project category wich consist alot of sorted objects.</info>					
+					<tools>
+						<item>1C-Bitrix</item>
+						<item>HTML4</item>
+						<item>CSS2</item>
+						<item>PHP5</item>
+						<item>MySQL</item>
+						<item>JavaScript</item>
+						<item>jQuery</item>
+					</tools>
+					<role>
+						<item>front-end developer</item>
+						<item>back-end developer</item>
+					</role>
+				</item>
+				<item>
+					<title>Beauty salon "Lelia"</title>
+					<url>leliabeauty.com.ua</url>
+					<company>
+						<item>Art Depo</item>
+					</company>
+					<year>
+						<item>2011</item>
+					</year>
+					<info>In some metters difficult project due to not standart fonts and high requirements for compliance PSD design to markup. Optimizing web-site for very quickly pages loading</info>					
+					<tools>
+						<item>1C-Bitrix</item>
+						<item>HTML4</item>
+						<item>CSS2</item>
+						<item>PHP5</item>
+						<item>MySQL</item>
+						<item>JavaScript</item>
+						<item>Cufon</item>
+						<item>jQuery</item>
+					</tools>				
+					<role>
+						<item>front-end developer</item>
+					</role>
+				</item>
+				<item>
+					<title>Company "Ritrama"</title>
+					<url>ritrama.com</url>
+					<company>
+						<item>Art Depo</item>
+					</company>
+					<year>
+						<item>2011</item>
+					</year>
+					<info>My first web-site based on 1C-Bitrix. Task was to copy design from official site to ukrainian branch office.</info>					
+					<tools>
+						<item>1C-Bitrix</item>
+						<item>HTML4</item>
+						<item>CSS2</item>
+						<item>PHP5</item>
+						<item>MySQL</item>
+						<item>JavaScript</item>
+						<item>jQuery</item>
+					</tools>
+					<role>
+						<item>front-end developer</item>
+						<item>back-end developer</item>
+					</role>					
+				</item>		
+				<item>
+					<title>Service for legal advices</title>
+					<url>advice.org.ua</url>
+					<company>
+						<item>DEngine</item>
+					</company>
+					<year>
+						<item>2011</item>
+					</year>
+					<info>Web-site with a difficult navigation. Has been developed few custom forms.  Has been done in 2 days.</info>					
+					<tools>
+						<item>Wordpress</item>
+						<item>HTML5</item>
+						<item>CSS3</item>
+						<item>PHP5</item>
+						<item>MySQL</item>
+						<item>JavaScript</item>
+						<item>jQuery</item>						
+					</tools>
+					<role>
+						<item>front-end developer</item>				
+					</role>
+				</item>
+				<item>
+					<title>Company "Web Intelligence"</title>
+					<url>webintelligence.com.ua</url>
+					<company>
+						<item>DEngine</item>
+					</company>
+					<year>
+						<item>2011</item>
+					</year>
+					<info>Developing template for Wordpress. XMTML Markup and programming. Be me was developed front-end part of slider using nextgen gallery plugin.</info>
+					<tools>
+						<item>Wordpress</item>
+						<item>HTML5</item>
+						<item>CSS3</item>
+						<item>PHP5</item>
+						<item>MySQL</item>
+						<item>JavaScript</item>
+						<item>jQuery</item>						
+					</tools>
+					<role>
+						<item>front-end developer</item>
+					</role>
+				</item>	
+				<item>
+					<title>Company "Vizit Service"</title>
+					<url>vizitservice.com</url>
+					<company>
+						<item>DEngine</item>
+					</company>
+					<year>
+						<item>2011</item>
+					</year>
+					<info>
+						Markup and programming web-site from jpg design-source.
+						Very simple web-site in 1 day with news, gallery, contact form
+					</info>
+					<tools>
+						<item>Wordpress</item>
+						<item>HTML5</item>
+						<item>CSS2</item>
+						<item>PHP5</item>						
+					</tools>					
+					<role>
+						<item>front-end developer</item>
+						<item>project manager</item>
+					</role>
+				</item>
+				<item>
+					<title>Agency "RTconference"</title>
+					<url>rtconference.com.ua</url>
+					<company>
+						<item>DEngine</item>
+					</company>
+					<year>
+						<item>2010</item>
+					</year>
+					<info>Transfer from one CMS to another. Feature requests and support.</info>
+					<tools>
+						<item>Own CMS</item>
+						<item>SMARTY</item>
+						<item>HTML4</item>
+						<item>CSS2</item>
+						<item>PHP5</item>
+						<item>MySQL</item>
+						<item>JavaScript</item>
+						<item>jQuery</item>						
+					</tools>
+					<role>
+						<item>front-end developer</item>
+						<item>back-end developer</item>
+						<item>project manager</item>
+					</role>
+				</item>
+				<item>
+					<title>Municipal Enterprise "KBio Himki"</title>
+					<url>kbiox.ru</url>
+					<company>
+						<item>DEngine</item>
+					</company>
+					<year>
+						<item>2010</item>
+					</year>
+					<info>Developed in one week using my own CMS DEngine Corporate. The most hard part of web-site was main page with special hover effect on the big image-map.</info>					
+					<tools>
+						<item>Own CMS</item>
+						<item>SMARTY</item>
+						<item>HTML4</item>
+						<item>CSS2</item>
+						<item>PHP5</item>
+						<item>MySQL</item>
+						<item>JavaScript</item>
+						<item>jQuery</item>						
+					</tools>
+					<role>
+						<item>front-end developer</item>
+						<item>back-end developer</item>					
+					</role>
+				</item>					
+				<item>
+					<title>Shop "Aqua Breeze"</title>
+					<url>pompa.net.ua</url>
+					<company>
+						<item>DEngine</item>
+					</company>
+					<year>
+						<item>2009</item>
+					</year>
+					<info>Creating internet-shop for selling pumps. Low budget allowed o create only catalog.</info>
+					<tools>
+						<item>Own CMS</item>
+						<item>SMARTY</item>
+						<item>HTML4</item>
+						<item>CSS2</item>
+						<item>PHP5</item>
+						<item>MySQL</item>
+						<item>JavaScript</item>
+						<item>jQuery</item>						
+						<item>Photoshop</item>
+					</tools>
+					<role>
+						<item>front-end developer</item>
+						<item>back-end developer</item>
+						<item>project manager</item>
+						<item>designer</item>
+					</role>
+				</item>
+				<item>
+					<title>Company "Mucos Pharma"</title>
+					<url>mucos.com.ua</url>
+					<company>
+						<item>DEngine</item>
+					</company>
+					<year>
+						<item>2008</item>
+					</year>
+					<info>Web-site for a company in which I have been working for 4 years.</info>
+					<tools>
+						<item>Own CMS</item>
+						<item>SMARTY</item>
+						<item>HTML4</item>
+						<item>CSS2</item>
+						<item>PHP5</item>
+						<item>MySQL</item>
+						<item>JavaScript</item>
+						<item>jQuery</item>						
+						<item>Photoshop</item>
+					</tools>
+					<role>
+						<item>front-end developer</item>
+						<item>back-end developer</item>
+						<item>project manager</item>
+						<item>designer</item>
+					</role>
+				</item>
+				<item>
+					<title>Pharmaceutical company "R-Pharm"</title>
+					<url>r-pharm.com.ua</url>
+					<company>
+						<item>DEngine</item>
+					</company>
+					<year>
+						<item>2008</item>
+					</year>
+					<info>The second web-site developed by me for Mucos Pharma. Task was to create small light-weight web-site. With no CMS.</info>
+					<tools>
+						<item>Own CMS</item>
+						<item>HTML4</item>
+						<item>CSS2</item>
+						<item>PHP5</item>
+						<item>MySQL</item>											
+						<item>Photoshop</item>
+					</tools>
+					<role>
+						<item>front-end developer</item>
+						<item>back-end developer</item>
+						<item>project manager</item>
+						<item>designer</item>
+					</role>
+				</item>
+				<item>
+					<title>Company "TechElectrotrade"</title>
+					<url>hagerland.com.ua</url>
+					<company>
+						<item>DEngine</item>
+					</company>
+					<year>
+						<item>2007</item>
+					</year>
+					<info>Due to this project was developed CMS "DEngine Shop". For a years was made more than 40 extensions.</info>
+					<tools>
+						<item>Own CMS</item>
+						<item>HTML4</item>
+						<item>CSS2</item>
+						<item>PHP5</item>
+						<item>MySQL</item>											
+						<item>Photoshop</item>
+					</tools>
+					<role>
+						<item>front-end developer</item>
+						<item>back-end developer</item>
+						<item>project manager</item>						
+						<item>designer</item>
+					</role>
+				</item>
+				<item>
+					<title>Internet Shop "DjOne"</title>
+					<url>djone.com.ua</url>
+					<company>
+						<item>DEngine</item>
+					</company>
+					<year>
+						<item>2006</item>
+					</year>
+					<info>Due to this project was developed CMS "DEngine Shop". For a years was made more than 40 extensions.</info>					
+					<tools>
+						<item>Own CMS</item>
+						<item>SMARTY</item>
+						<item>HTML4</item>
+						<item>CSS2</item>
+						<item>PHP5</item>
+						<item>MySQL</item>
+						<item>JavaScript</item>
+						<item>jQuery</item>
+						<item>Photoshop</item>
+						<item>Linux</item>
+						<item>MySQL Server</item>
+						<item>Apache2</item>
+					</tools>
+					<role>
+						<item>designer</item>
+						<item>front-end developer</item>
+						<item>back-end developer</item>
+						<item>sytem administrator</item>
+						<item>team lead</item>
+					</role>
+				</item>
+				<item>
+					<title>Harry Potter fan-club in Ukraine</title>
+					<url>hpclub.com.ua</url>
+					<company>
+						<item>Own Project</item>
+					</company>
+					<year>
+						<item>2005</item>
+					</year>
+					<info>Fan-club of Harry Potter in Ukraine was created due to this web-site. Consist of 120 HTML pages and forum.</info>					
+					<tools>
+						<item>IPB</item>
+						<item>HTML4</item>
+						<item>CSS2</item>
+						<item>PHP5</item>
+						<item>MySQL</item>
+						<item>JavaScript</item>
+						<item>jQuery</item>						
+					</tools>
+					<role>
+						<item>front-end developer</item>
+						<item>sytem administrator</item>
+						<item>team lead</item>
+						<item>project manager</item>
+						<item>founder</item>
+					</role>
+				</item>																											
+			</portfolio>
+		</item>
+		<item name="Equipment" title_display="show">
+			<content>
+				<p>I prefer comfortable place ofh work and high perfomance computer technics. This is a list of my own current equipment.</p>
+				<p>Nemo, ratione voluptates enim accusantium eos voluptatibus minus. Placeat, repudiandae, molestiae rem suscipit doloremque possimus velit facilis cumque tempore incidunt natus delectus nobis praesentium non ipsa. Quo ipsa consequuntur deserunt.</p>
+			</content>
+			<equipment>
+				<item title="desktop">Windows 7 / AMD Athlon II X2 3 Ghz / 4 Gb DDR3;</item>
+				<item title="desktop">Linux Mint / Intel Dual Core 2.2 Ghz / GeForce 9500 GT / 2 Gb DDR2;</item>
+				<item title="server">(situated in "Kyiv Politechnical Institute) Linux Ubuntu / Pentium IV 2,4 Ghz / 3Gb DDR;</item>				
+				<item title="netbook">Asus Eee PC 1215B / AMD Fusion APU E450 1.65GHz / Radeon HD 6320 / 3 Gb DDR2;</item>
+				<item title="laptop"> Lenovo G570 / Ubuntu 12.04 / Core i5 2,4 Ghz / 4 Gb / Radeon HD 6300;</item>
+				<item title="phone">LG Optimus; Android / 1 Ghz / unlimited 3G Internet;</item>
+			</equipment>
+		</item>
+		<item name="Interests" title_display="show">
+			<content>				
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, ea, tempore, beatae sequi iusto odit tempora magni sit et molestias fugiat at iure deleniti quas deserunt illum culpa facere rerum.</p>
+				<p>Maiores, numquam, atque, at expedita illo adipisci voluptatem recusandae molestias sint aliquam voluptate tenetur eius dolorem reprehenderit repellendus iste quo omnis! Adipisci, soluta, reprehenderit explicabo dicta libero rerum fugit natus.</p>
+				<p>Inventore, vitae doloribus aut assumenda magnam beatae totam delectus modi atque ratione. Commodi, quo, adipisci, fugiat esse dolorum provident optio fuga accusamus autem pariatur animi ratione quas consequuntur accusantium magni.</p>
+				<p>Nemo, ratione voluptates enim accusantium eos voluptatibus minus. Placeat, repudiandae, molestiae rem suscipit doloremque possimus velit facilis cumque tempore incidunt natus delectus nobis praesentium non ipsa. Quo ipsa consequuntur deserunt.</p>
+				<p>Amet, nam, officia maiores corporis a recusandae autem delectus sapiente laudantium sint eum omnis natus. Illo, recusandae, minima quibusdam nam consectetur voluptatum ipsum quasi voluptas sunt similique ad earum voluptate.</p>
+				<p>Pariatur voluptates dolorem perferendis veniam. Tenetur, at, consequatur, qui, necessitatibus impedit accusamus quasi magni deleniti ipsam ipsum molestiae distinctio molestias eveniet enim similique modi perspiciatis? Vero, quae beatae in labore?</p>
+			</content>
+		</item>
+	</navigation>
+</site>

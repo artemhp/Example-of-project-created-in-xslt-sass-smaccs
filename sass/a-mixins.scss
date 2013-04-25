@@ -1,0 +1,128 @@
+@mixin floatFix {
+	&:after {
+		font-size:0; 
+		
+		display:block;
+		clear:both;
+		height:0;
+		overflow:hidden;
+		
+		content:".";
+		line-height:0;
+	}
+	.ie7 & {
+		zoom: 1;
+		display: block;	
+	}
+}
+%imgResponsive {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+@mixin a-clearFloat {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline; } 
+}
+
+@mixin a-bgBase($bgimg) {
+	background-image: url($bgimg);
+	background-image: inline-image($bgimg);
+}
+@mixin a-dim ($prop, $size) {
+	#{$prop}: + $size + px;
+	#{$prop}: + ($size/10) + rem;
+}
+@mixin a-fontSize ($font: 16, $lineHeight:false){ 
+  
+  @if $lineHeight == false  {
+  	$lineHeight: $font * 1.3;
+  }
+
+  font-size: $font + px;
+  line-height: $lineHeight + px;  /* The Fallback */
+  font-size: ($font / 10) + rem;
+  line-height: ($lineHeight / 10) + rem;
+}
+
+@mixin a-font($fontName, $fileName1, $fileName2:false, $fileName3:false, $fileName4:false, $path:"../fonts/"){
+	
+	/*
+	$fontName Font Name
+	$fileName1 Path to Regular
+	$fileName2 Path to Bold
+	$fileName3 Path to Italic
+	$fileName4 Path to Bold and Italic
+	*/
+
+	@font-face {
+	    font-family: $fontName;
+	    src: url($path + $fileName1 + '.eot');
+	    src: url($path + $fileName1 + '.eot?#iefix') format('embedded-opentype'),
+	         url($path + $fileName1 + '.woff') format('woff'),
+	         url($path + $fileName1 + '.ttf') format('truetype'),
+	         url($path + $fileName1 + '.svg#' + $fileName1) format('svg');
+	    font-weight: normal; 
+	    font-style: normal;
+	}
+	@if $fileName2 {
+		@font-face {
+		    font-family: $fontName;
+		    src: url($path + $fileName2 + '.eot');
+		    src: url($path + $fileName2 + '.eot?#iefix') format('embedded-opentype'),
+		         url($path + $fileName2 + '.woff') format('woff'),
+		         url($path + $fileName2 + '.ttf') format('truetype'),
+		         url($path + $fileName2 + '.svg#' + $fileName2) format('svg');
+		    font-weight: bold; 
+		    font-style: normal;
+		}
+	}
+	
+	@if $fileName3 {
+		@font-face {
+		    font-family: $fontName;
+		    src: url($path + $fileName3 + '.eot');
+		    src: url($path + $fileName3 + '.eot?#iefix') format('embedded-opentype'),
+		         url($path + $fileName3 + '.woff') format('woff'),
+		         url($path + $fileName3 + '.ttf') format('truetype'),
+		         url($path + $fileName3 + '.svg#' + $fileName3) format('svg');
+		    font-weight: normal; 
+		    font-style: italic;
+		}
+	}
+
+	@if $fileName4 {
+		@font-face {
+		    font-family: $fontName;
+		    src: url($path + $fileName4 + '.eot');
+		    src: url($path + $fileName4 + '.eot?#iefix') format('embedded-opentype'),
+		         url($path + $fileName4 + '.woff') format('woff'),
+		         url($path + $fileName4 + '.ttf') format('truetype'),
+		         url($path + $fileName4 + '.svg#' + $fileName4) format('svg');
+		    font-weight: bold; 
+		    font-style: italic;
+		}
+	}
+}
+
+@mixin a-bgOpacity($color, $opacity: 0.3, $fallback:none) {
+    background: $fallback;
+    background: rgba($color, $opacity);
+}
+
+@mixin a-fontIcon ($iconCode, $fontName) {
+	&:before {
+		content: $iconCode;
+		font-family: $fontName;
+		color:#6EBCFF;
+		display: inline-block;
+		@include a-dim("width", 25);
+	}
+}
+
+@mixin opacity($opacity) {
+	filter: alpha(opacity=#{$opacity}); // IE 5-9+
+	opacity: $opacity * 0.01; 
+}

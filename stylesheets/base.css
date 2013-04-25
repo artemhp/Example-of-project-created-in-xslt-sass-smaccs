@@ -1,0 +1,199 @@
+/* @include a-font("Ubuntu Mono", "ubuntumono-r-webfont", "ubuntumono-b-webfont", "ubuntumono-ri-webfont", "ubuntumono-bi-webfont", "../fonts/UbuntuMono/"); */
+/*
+$fontName Font Name
+$fileName1 Path to Regular
+$fileName2 Path to Bold
+$fileName3 Path to Italic
+$fileName4 Path to Bold and Italic
+*/
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu/ubuntu-l-webfont.eot");
+  src: url("../fonts/Ubuntu/ubuntu-l-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu/ubuntu-l-webfont.woff") format("woff"), url("../fonts/Ubuntu/ubuntu-l-webfont.ttf") format("truetype"), url("../fonts/Ubuntu/ubuntu-l-webfont.svg#ubuntu-l-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu/ubuntu-b-webfont.eot");
+  src: url("../fonts/Ubuntu/ubuntu-b-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu/ubuntu-b-webfont.woff") format("woff"), url("../fonts/Ubuntu/ubuntu-b-webfont.ttf") format("truetype"), url("../fonts/Ubuntu/ubuntu-b-webfont.svg#ubuntu-b-webfont") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu/ubuntu-ri-webfont.eot");
+  src: url("../fonts/Ubuntu/ubuntu-ri-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu/ubuntu-ri-webfont.woff") format("woff"), url("../fonts/Ubuntu/ubuntu-ri-webfont.ttf") format("truetype"), url("../fonts/Ubuntu/ubuntu-ri-webfont.svg#ubuntu-ri-webfont") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu/ubuntu-bi-webfont.eot");
+  src: url("../fonts/Ubuntu/ubuntu-bi-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu/ubuntu-bi-webfont.woff") format("woff"), url("../fonts/Ubuntu/ubuntu-bi-webfont.ttf") format("truetype"), url("../fonts/Ubuntu/ubuntu-bi-webfont.svg#ubuntu-bi-webfont") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+/*
+$fontName Font Name
+$fileName1 Path to Regular
+$fileName2 Path to Bold
+$fileName3 Path to Italic
+$fileName4 Path to Bold and Italic
+*/
+@font-face {
+  font-family: "Bubblegum Sans";
+  src: url("../fonts/bubblegumsans-regular-webfont.eot");
+  src: url("../fonts/bubblegumsans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bubblegumsans-regular-webfont.woff") format("woff"), url("../fonts/bubblegumsans-regular-webfont.ttf") format("truetype"), url("../fonts/bubblegumsans-regular-webfont.svg#bubblegumsans-regular-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*
+$fontName Font Name
+$fileName1 Path to Regular
+$fileName2 Path to Bold
+$fileName3 Path to Italic
+$fileName4 Path to Bold and Italic
+*/
+@font-face {
+  font-family: "FontAwesome";
+  src: url("../fonts/fontawesome-webfont.eot");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff") format("woff"), url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*
+$fontName Font Name
+$fileName1 Path to Regular
+$fileName2 Path to Bold
+$fileName3 Path to Italic
+$fileName4 Path to Bold and Italic
+*/
+@font-face {
+  font-family: "Social";
+  src: url("../fonts/socialico-webfont.eot");
+  src: url("../fonts/socialico-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/socialico-webfont.woff") format("woff"), url("../fonts/socialico-webfont.ttf") format("truetype"), url("../fonts/socialico-webfont.svg#socialico-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* @include a-font("Webissimo", "sansus-webissimo-regular-webfont"); */
+/* line 10, ../sass/base.scss */
+html {
+  font-size: 62.5%;
+  /* Sets up the Base 10 stuff */ }
+
+/* line 13, ../sass/base.scss */
+body {
+  color: white;
+  font-family: "Ubuntu", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 16.9px;
+  /* The Fallback */
+  font-size: 1.3rem;
+  line-height: 1.69rem;
+  background-image: url("../img/bg_noise.png");
+  background-image: url('data:image/png;base64,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'); }
+
+/* line 19, ../sass/base.scss */
+strong {
+  font-weight: bold;
+  color: #ffcc33; }
+
+/* line 23, ../sass/base.scss */
+h1 {
+  font-size: 46px;
+  line-height: 59.8px;
+  /* The Fallback */
+  font-size: 4.6rem;
+  line-height: 5.98rem;
+  font-family: "Bubblegum Sans", sans; }
+  @media (max-width: 550px) {
+    /* line 23, ../sass/base.scss */
+    h1 {
+      text-align: center;
+      margin-top: 10px;
+      margin-top: 1rem; } }
+  @media (max-width: 320px) {
+    /* line 23, ../sass/base.scss */
+    h1 {
+      text-align: left; } }
+
+/* line 34, ../sass/base.scss */
+h2 {
+  font-size: 36px;
+  line-height: 46.8px;
+  /* The Fallback */
+  font-size: 3.6rem;
+  line-height: 4.68rem;
+  font-family: "Bubblegum Sans", sans;
+  background: #303030;
+  background: rgba(255, 255, 255, 0.03);
+  padding-left: 10px;
+  padding-left: 1rem;
+  margin-top: 10px;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+  margin-bottom: 1rem;
+  margin-left: -10px;
+  margin-left: -1rem; }
+  @media (max-width: 550px) {
+    /* line 34, ../sass/base.scss */
+    h2 {
+      text-align: center; } }
+
+/* line 46, ../sass/base.scss */
+h3 {
+  font-weight: bold;
+  color: #ffcc33;
+  /* font-family: 'Bubblegum Sans', sans-serif; */
+  font-size: 16px;
+  line-height: 20.8px;
+  /* The Fallback */
+  font-size: 1.6rem;
+  line-height: 2.08rem;
+  text-shadow: 1px 1px 0 #000000;
+  filter: dropshadow(color=black, offx=2, offy=2); }
+
+/* line 54, ../sass/base.scss */
+h4 {
+  font-weight: bold;
+  color: #fff9b9;
+  font-size: 12px;
+  line-height: 15.6px;
+  /* The Fallback */
+  font-size: 1.2rem;
+  line-height: 1.56rem;
+  text-shadow: 1px 1px 0 #000000;
+  filter: dropshadow(color=black, offx=2, offy=2); }
+
+/* line 61, ../sass/base.scss */
+a {
+  color: #ffecb3;
+  text-decoration: none;
+  outline: none; }
+  /* line 18, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:visited {
+    color: #ecffb3; }
+  /* line 21, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:focus {
+    color: #c6ffb3; }
+  /* line 24, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:hover {
+    color: #c6ffb3; }
+  /* line 27, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:active {
+    color: #b3ffc6; }
+  /* line 4, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+  a:hover {
+    text-decoration: underline; }
+  /* line 65, ../sass/base.scss */
+  a:hover {
+    text-decoration: underline; }
+  /* line 68, ../sass/base.scss */
+  a:focus {
+    background: #B82E00;
+    color: #FFF; }
+
+/* line 73, ../sass/base.scss */
+p {
+  padding-top: 10px; }

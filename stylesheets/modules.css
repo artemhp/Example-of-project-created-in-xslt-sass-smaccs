@@ -1,0 +1,1207 @@
+/* line 18, ../sass/a-mixins.scss */
+.menu > .myphoto > img, .experience > .item > .img > img, .portfolio_view > .img > img, .portfolio > .item > .img > img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto; }
+
+/* line 3, ../sass/modules.scss */
+h1 > span {
+  font-size: 28px;
+  line-height: 36.4px;
+  /* The Fallback */
+  font-size: 2.8rem;
+  line-height: 3.64rem;
+  color: #ffcc33; }
+  @media (max-width: 755px) {
+    /* line 3, ../sass/modules.scss */
+    h1 > span {
+      display: block;
+      font-size: 28px;
+      line-height: 28px;
+      /* The Fallback */
+      font-size: 2.8rem;
+      line-height: 2.8rem; } }
+  @media (max-width: 550px) and (min-width: 320px) {
+    /* line 3, ../sass/modules.scss */
+    h1 > span {
+      text-align: center; } }
+
+/* line 15, ../sass/modules.scss */
+.menu {
+  margin-top: 10px;
+  margin-top: 1rem; }
+  /* line 17, ../sass/modules.scss */
+  .menu > .myphoto > img {
+    -webkit-border-radius: 5px 5px;
+    -moz-border-radius: 5px / 5px;
+    border-radius: 5px / 5px; }
+  /* line 21, ../sass/modules.scss */
+  .menu > .navigation {
+    margin-top: 10px;
+    margin-top: 1rem;
+    -webkit-transition: top 0.3s ease-in-out;
+    -moz-transition: top 0.3s ease-in-out;
+    -o-transition: top 0.3s ease-in-out;
+    transition: top 0.3s ease-in-out;
+    -webkit-border-radius: 5px 5px;
+    -moz-border-radius: 5px / 5px;
+    border-radius: 5px / 5px; }
+    @media (max-width: 550px) {
+      /* line 21, ../sass/modules.scss */
+      .menu > .navigation {
+        font-size: 21px;
+        line-height: 27.3px;
+        /* The Fallback */
+        font-size: 2.1rem;
+        line-height: 2.73rem;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        -ms-column-count: 2;
+        -o-column-count: 2;
+        column-count: 2;
+        width: 320px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-top: 1rem; } }
+    @media (max-width: 350px) {
+      /* line 21, ../sass/modules.scss */
+      .menu > .navigation {
+        width: 100%;
+        text-align: left; } }
+    /* line 38, ../sass/modules.scss */
+    .menu > .navigation > li > a {
+      color: white;
+      font-family: 'Bubblegum Sans', sans-serif;
+      font-size: 21px;
+      line-height: 27.3px;
+      /* The Fallback */
+      font-size: 2.1rem;
+      line-height: 2.73rem;
+      display: block;
+      -webkit-transition: all 0.1s ease-in-out;
+      -moz-transition: all 0.1s ease-in-out;
+      -o-transition: all 0.1s ease-in-out;
+      transition: all 0.1s ease-in-out;
+      text-shadow: 2px 2px 2px #000000;
+      filter: dropshadow(color=black, offx=2, offy=2); }
+      @media (max-width: 768px) {
+        /* line 38, ../sass/modules.scss */
+        .menu > .navigation > li > a {
+          font-size: 16px;
+          line-height: 20.8px;
+          /* The Fallback */
+          font-size: 1.6rem;
+          line-height: 2.08rem; } }
+      /* line 51, ../sass/modules.scss */
+      .menu > .navigation > li > a:hover {
+        color: #ffcc33;
+        text-decoration: none; }
+
+/* line 59, ../sass/modules.scss */
+.myinfo {
+  margin-top: 15px;
+  margin-top: 1.5rem; }
+  @media (max-width: 550px) {
+    /* line 59, ../sass/modules.scss */
+    .myinfo {
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      -ms-column-count: 2;
+      -o-column-count: 2;
+      column-count: 2;
+      width: 320px;
+      margin: 0 auto;
+      margin-top: 15px;
+      margin-top: 1.5rem;
+      background: #505050;
+      background: rgba(255, 255, 255, 0.09); } }
+  @media (max-width: 350px) {
+    /* line 59, ../sass/modules.scss */
+    .myinfo {
+      width: 100%; } }
+  /* line 71, ../sass/modules.scss */
+  .myinfo > div:before {
+    display: inline-block;
+    width: 25px;
+    width: 2.5rem; }
+  /* line 116, ../sass/a-mixins.scss */
+  .myinfo > .phone:before {
+    content: "\f095";
+    font-family: "FontAwesome";
+    color: #6EBCFF;
+    display: inline-block;
+    width: 25px;
+    width: 2.5rem; }
+  /* line 116, ../sass/a-mixins.scss */
+  .myinfo > .name:before {
+    content: "\f007";
+    font-family: "FontAwesome";
+    color: #6EBCFF;
+    display: inline-block;
+    width: 25px;
+    width: 2.5rem; }
+  /* line 116, ../sass/a-mixins.scss */
+  .myinfo > .position:before {
+    content: "\f0b1";
+    font-family: "FontAwesome";
+    color: #6EBCFF;
+    display: inline-block;
+    width: 25px;
+    width: 2.5rem; }
+  /* line 116, ../sass/a-mixins.scss */
+  .myinfo > .mail:before {
+    content: "\f0e0";
+    font-family: "FontAwesome";
+    color: #6EBCFF;
+    display: inline-block;
+    width: 25px;
+    width: 2.5rem; }
+  /* line 116, ../sass/a-mixins.scss */
+  .myinfo > .skype:before {
+    content: "\f0e5";
+    font-family: "FontAwesome";
+    color: #6EBCFF;
+    display: inline-block;
+    width: 25px;
+    width: 2.5rem; }
+  /* line 116, ../sass/a-mixins.scss */
+  .myinfo > .year:before {
+    content: "\f073";
+    font-family: "FontAwesome";
+    color: #6EBCFF;
+    display: inline-block;
+    width: 25px;
+    width: 2.5rem; }
+
+/* line 82, ../sass/modules.scss */
+ul.me {
+  background: #383838;
+  background: rgba(255, 255, 255, 0.09);
+  padding: 10px;
+  padding: 1rem;
+  margin-top: 10px;
+  margin-top: 1rem;
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px / 5px;
+  border-radius: 5px / 5px;
+  width: 70%;
+  margin-left: 5%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  @media (max-width: 940px) {
+    /* line 82, ../sass/modules.scss */
+    ul.me {
+      width: 100%;
+      margin-left: 0; } }
+  /* line 95, ../sass/modules.scss */
+  ul.me > li > span {
+    color: #ffcc33;
+    display: inline-block;
+    width: 130px;
+    width: 13rem;
+    margin-left: 30px;
+    margin-left: 3rem; }
+    @media (max-width: 650px) {
+      /* line 95, ../sass/modules.scss */
+      ul.me > li > span {
+        display: inline;
+        margin-left: 10px;
+        margin-left: 1rem;
+        padding-right: 10px;
+        padding-right: 1rem; } }
+
+/* line 108, ../sass/modules.scss */
+.info {
+  margin-top: 15px;
+  margin-top: 1.5rem;
+  font-style: italic; }
+
+/* line 113, ../sass/modules.scss */
+.soc {
+  margin-top: 15px;
+  margin-top: 1.5rem;
+  margin-top: 5px;
+  margin-top: 0.5rem; }
+  /* line 2, ../sass/a-mixins.scss */
+  .soc:after {
+    font-size: 0;
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    content: ".";
+    line-height: 0; }
+  /* line 13, ../sass/a-mixins.scss */
+  .ie7 .soc {
+    zoom: 1;
+    display: block; }
+  @media (max-width: 550px) {
+    /* line 113, ../sass/modules.scss */
+    .soc {
+      text-align: center; } }
+  /* line 120, ../sass/modules.scss */
+  .soc > li {
+    display: inline-block; }
+  /* line 125, ../sass/modules.scss */
+  .soc > .soc_1 > a {
+    font-size: 50px;
+    line-height: 65px;
+    /* The Fallback */
+    font-size: 5rem;
+    line-height: 6.5rem;
+    display: block;
+    margin-right: 5px;
+    margin-right: 0.5rem;
+    -webkit-transition: all 0.314s ease-in-out;
+    -moz-transition: all 0.314s ease-in-out;
+    -o-transition: all 0.314s ease-in-out;
+    transition: all 0.314s ease-in-out; }
+    /* line 116, ../sass/a-mixins.scss */
+    .soc > .soc_1 > a:before {
+      content: "R";
+      font-family: "Social";
+      color: #6EBCFF;
+      display: inline-block;
+      width: 25px;
+      width: 2.5rem; }
+    /* line 131, ../sass/modules.scss */
+    .soc > .soc_1 > a:before {
+      color: #FFF;
+      width: auto; }
+    /* line 135, ../sass/modules.scss */
+    .soc > .soc_1 > a:hover:before {
+      text-decoration: none;
+      color: #ffcc33; }
+  /* line 125, ../sass/modules.scss */
+  .soc > .soc_2 > a {
+    font-size: 50px;
+    line-height: 65px;
+    /* The Fallback */
+    font-size: 5rem;
+    line-height: 6.5rem;
+    display: block;
+    margin-right: 5px;
+    margin-right: 0.5rem;
+    -webkit-transition: all 0.314s ease-in-out;
+    -moz-transition: all 0.314s ease-in-out;
+    -o-transition: all 0.314s ease-in-out;
+    transition: all 0.314s ease-in-out; }
+    /* line 116, ../sass/a-mixins.scss */
+    .soc > .soc_2 > a:before {
+      content: "T";
+      font-family: "Social";
+      color: #6EBCFF;
+      display: inline-block;
+      width: 25px;
+      width: 2.5rem; }
+    /* line 131, ../sass/modules.scss */
+    .soc > .soc_2 > a:before {
+      color: #FFF;
+      width: auto; }
+    /* line 135, ../sass/modules.scss */
+    .soc > .soc_2 > a:hover:before {
+      text-decoration: none;
+      color: #ffcc33; }
+  /* line 125, ../sass/modules.scss */
+  .soc > .soc_3 > a {
+    font-size: 50px;
+    line-height: 65px;
+    /* The Fallback */
+    font-size: 5rem;
+    line-height: 6.5rem;
+    display: block;
+    margin-right: 5px;
+    margin-right: 0.5rem;
+    -webkit-transition: all 0.314s ease-in-out;
+    -moz-transition: all 0.314s ease-in-out;
+    -o-transition: all 0.314s ease-in-out;
+    transition: all 0.314s ease-in-out; }
+    /* line 116, ../sass/a-mixins.scss */
+    .soc > .soc_3 > a:before {
+      content: "F";
+      font-family: "Social";
+      color: #6EBCFF;
+      display: inline-block;
+      width: 25px;
+      width: 2.5rem; }
+    /* line 131, ../sass/modules.scss */
+    .soc > .soc_3 > a:before {
+      color: #FFF;
+      width: auto; }
+    /* line 135, ../sass/modules.scss */
+    .soc > .soc_3 > a:hover:before {
+      text-decoration: none;
+      color: #ffcc33; }
+  /* line 125, ../sass/modules.scss */
+  .soc > .soc_4 > a {
+    font-size: 50px;
+    line-height: 65px;
+    /* The Fallback */
+    font-size: 5rem;
+    line-height: 6.5rem;
+    display: block;
+    margin-right: 5px;
+    margin-right: 0.5rem;
+    -webkit-transition: all 0.314s ease-in-out;
+    -moz-transition: all 0.314s ease-in-out;
+    -o-transition: all 0.314s ease-in-out;
+    transition: all 0.314s ease-in-out; }
+    /* line 116, ../sass/a-mixins.scss */
+    .soc > .soc_4 > a:before {
+      content: "I";
+      font-family: "Social";
+      color: #6EBCFF;
+      display: inline-block;
+      width: 25px;
+      width: 2.5rem; }
+    /* line 131, ../sass/modules.scss */
+    .soc > .soc_4 > a:before {
+      color: #FFF;
+      width: auto; }
+    /* line 135, ../sass/modules.scss */
+    .soc > .soc_4 > a:hover:before {
+      text-decoration: none;
+      color: #ffcc33; }
+  /* line 125, ../sass/modules.scss */
+  .soc > .soc_5 > a {
+    font-size: 50px;
+    line-height: 65px;
+    /* The Fallback */
+    font-size: 5rem;
+    line-height: 6.5rem;
+    display: block;
+    margin-right: 5px;
+    margin-right: 0.5rem;
+    -webkit-transition: all 0.314s ease-in-out;
+    -moz-transition: all 0.314s ease-in-out;
+    -o-transition: all 0.314s ease-in-out;
+    transition: all 0.314s ease-in-out; }
+    /* line 116, ../sass/a-mixins.scss */
+    .soc > .soc_5 > a:before {
+      content: "G";
+      font-family: "Social";
+      color: #6EBCFF;
+      display: inline-block;
+      width: 25px;
+      width: 2.5rem; }
+    /* line 131, ../sass/modules.scss */
+    .soc > .soc_5 > a:before {
+      color: #FFF;
+      width: auto; }
+    /* line 135, ../sass/modules.scss */
+    .soc > .soc_5 > a:hover:before {
+      text-decoration: none;
+      color: #ffcc33; }
+  /* line 125, ../sass/modules.scss */
+  .soc > .soc_6 > a {
+    font-size: 50px;
+    line-height: 65px;
+    /* The Fallback */
+    font-size: 5rem;
+    line-height: 6.5rem;
+    display: block;
+    margin-right: 5px;
+    margin-right: 0.5rem;
+    -webkit-transition: all 0.314s ease-in-out;
+    -moz-transition: all 0.314s ease-in-out;
+    -o-transition: all 0.314s ease-in-out;
+    transition: all 0.314s ease-in-out; }
+    /* line 116, ../sass/a-mixins.scss */
+    .soc > .soc_6 > a:before {
+      content: "X";
+      font-family: "Social";
+      color: #6EBCFF;
+      display: inline-block;
+      width: 25px;
+      width: 2.5rem; }
+    /* line 131, ../sass/modules.scss */
+    .soc > .soc_6 > a:before {
+      color: #FFF;
+      width: auto; }
+    /* line 135, ../sass/modules.scss */
+    .soc > .soc_6 > a:hover:before {
+      text-decoration: none;
+      color: #ffcc33; }
+
+/* line 144, ../sass/modules.scss */
+.rate {
+  margin-top: 20px;
+  margin-top: 2rem;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  -ms-column-count: 2;
+  -o-column-count: 2;
+  column-count: 2; }
+  @media (max-width: 920px) {
+    /* line 144, ../sass/modules.scss */
+    .rate {
+      -webkit-column-count: 1;
+      -moz-column-count: 1;
+      -ms-column-count: 1;
+      -o-column-count: 1;
+      column-count: 1; } }
+  /* line 151, ../sass/modules.scss */
+  .ie7 .rate > li {
+    margin-top: 3px; }
+  /* line 154, ../sass/modules.scss */
+  .rate > li > span {
+    width: 200px;
+    width: 20rem;
+    height: 20px;
+    color: #ffcc33;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 23.4px;
+    /* The Fallback */
+    font-size: 1.8rem;
+    line-height: 2.34rem;
+    letter-spacing: 3px; }
+    @media (max-width: 400px) {
+      /* line 154, ../sass/modules.scss */
+      .rate > li > span {
+        font-size: 12px;
+        line-height: 15.6px;
+        /* The Fallback */
+        font-size: 1.2rem;
+        line-height: 1.56rem;
+        width: auto; } }
+  /* line 116, ../sass/a-mixins.scss */
+  .rate > li > span.rate1:before {
+    content: "\f005\f006\f006\f006\f006\f006\f006\f006\f006\f006";
+    font-family: "FontAwesome";
+    color: #6EBCFF;
+    display: inline-block;
+    width: 25px;
+    width: 2.5rem; }
+  /* line 170, ../sass/modules.scss */
+  .ie7 .rate > li > span.rate1 {
+    background: #f9d766;
+    width: 30px; }
+    /* line 116, ../sass/a-mixins.scss */
+    .ie7 .rate > li > span.rate1:before {
+      content: "\f005\f006\f006\f006\f006\f006\f006\f006\f006\f006";
+      font-family: "FontAwesome";
+      color: #6EBCFF;
+      display: inline-block;
+      width: 25px;
+      width: 2.5rem; }
+  /* line 177, ../sass/modules.scss */
+  .rate > li > span.rate1:before {
+    color: #ffcc33;
+    width: auto; }
+  /* line 116, ../sass/a-mixins.scss */
+  .rate > li > span.rate2:before {
+    content: "\f005\f005\f006\f006\f006\f006\f006\f006\f006\f006";
+    font-family: "FontAwesome";
+    color: #6EBCFF;
+    display: inline-block;
+    width: 25px;
+    width: 2.5rem; }
+  /* line 170, ../sass/modules.scss */
+  .ie7 .rate > li > span.rate2 {
+    background: #f9d766;
+    width: 60px; }
+    /* line 116, ../sass/a-mixins.scss */
+    .ie7 .rate > li > span.rate2:before {
+      content: "\f005\f005\f006\f006\f006\f006\f006\f006\f006\f006";
+      font-family: "FontAwesome";
+      color: #6EBCFF;
+      display: inline-block;
+      width: 25px;
+      width: 2.5rem; }
+  /* line 177, ../sass/modules.scss */
+  .rate > li > span.rate2:before {
+    color: #ffcc33;
+    width: auto; }
+  /* line 116, ../sass/a-mixins.scss */
+  .rate > li > span.rate3:before {
+    content: "\f005\f005\f005\f006\f006\f006\f006\f006\f006\f006";
+    font-family: "FontAwesome";
+    color: #6EBCFF;
+    display: inline-block;
+    width: 25px;
+    width: 2.5rem; }
+  /* line 170, ../sass/modules.scss */
+  .ie7 .rate > li > span.rate3 {
+    background: #f9d766;
+    width: 90px; }
+    /* line 116, ../sass/a-mixins.scss */
+    .ie7 .rate > li > span.rate3:before {
+      content: "\f005\f005\f005\f006\f006\f006\f006\f006\f006\f006";
+      font-family: "FontAwesome";
+      color: #6EBCFF;
+      display: inline-block;
+      width: 25px;
+      width: 2.5rem; }
+  /* line 177, ../sass/modules.scss */
+  .rate > li > span.rate3:before {
+    color: #ffcc33;
+    width: auto; }
+  /* line 116, ../sass/a-mixins.scss */
+  .rate > li > span.rate4:before {
+    content: "\f005\f005\f005\f005\f006\f006\f006\f006\f006\f006";
+    font-family: "FontAwesome";
+    color: #6EBCFF;
+    display: inline-block;
+    width: 25px;
+    width: 2.5rem; }
+  /* line 170, ../sass/modules.scss */
+  .ie7 .rate > li > span.rate4 {
+    background: #f9d766;
+    width: 120px; }
+    /* line 116, ../sass/a-mixins.scss */
+    .ie7 .rate > li > span.rate4:before {
+      content: "\f005\f005\f005\f005\f006\f006\f006\f006\f006\f006";
+      font-family: "FontAwesome";
+      color: #6EBCFF;
+      display: inline-block;
+      width: 25px;
+      width: 2.5rem; }
+  /* line 177, ../sass/modules.scss */
+  .rate > li > span.rate4:before {
+    color: #ffcc33;
+    width: auto; }
+  /* line 116, ../sass/a-mixins.scss */
+  .rate > li > span.rate5:before {
+    content: "\f005\f005\f005\f005\f005\f006\f006\f006\f006\f006";
+    font-family: "FontAwesome";
+    color: #6EBCFF;
+    display: inline-block;
+    width: 25px;
+    width: 2.5rem; }
+  /* line 170, ../sass/modules.scss */
+  .ie7 .rate > li > span.rate5 {
+    background: #f9d766;
+    width: 150px; }
+    /* line 116, ../sass/a-mixins.scss */
+    .ie7 .rate > li > span.rate5:before {
+      content: "\f005\f005\f005\f005\f005\f006\f006\f006\f006\f006";
+      font-family: "FontAwesome";
+      color: #6EBCFF;
+      display: inline-block;
+      width: 25px;
+      width: 2.5rem; }
+  /* line 177, ../sass/modules.scss */
+  .rate > li > span.rate5:before {
+    color: #ffcc33;
+    width: auto; }
+  /* line 116, ../sass/a-mixins.scss */
+  .rate > li > span.rate6:before {
+    content: "\f005\f005\f005\f005\f005\f005\f006\f006\f006\f006";
+    font-family: "FontAwesome";
+    color: #6EBCFF;
+    display: inline-block;
+    width: 25px;
+    width: 2.5rem; }
+  /* line 170, ../sass/modules.scss */
+  .ie7 .rate > li > span.rate6 {
+    background: #f9d766;
+    width: 180px; }
+    /* line 116, ../sass/a-mixins.scss */
+    .ie7 .rate > li > span.rate6:before {
+      content: "\f005\f005\f005\f005\f005\f005\f006\f006\f006\f006";
+      font-family: "FontAwesome";
+      color: #6EBCFF;
+      display: inline-block;
+      width: 25px;
+      width: 2.5rem; }
+  /* line 177, ../sass/modules.scss */
+  .rate > li > span.rate6:before {
+    color: #ffcc33;
+    width: auto; }
+  /* line 116, ../sass/a-mixins.scss */
+  .rate > li > span.rate7:before {
+    content: "\f005\f005\f005\f005\f005\f005\f005\f006\f006\f006";
+    font-family: "FontAwesome";
+    color: #6EBCFF;
+    display: inline-block;
+    width: 25px;
+    width: 2.5rem; }
+  /* line 170, ../sass/modules.scss */
+  .ie7 .rate > li > span.rate7 {
+    background: #f9d766;
+    width: 210px; }
+    /* line 116, ../sass/a-mixins.scss */
+    .ie7 .rate > li > span.rate7:before {
+      content: "\f005\f005\f005\f005\f005\f005\f005\f006\f006\f006";
+      font-family: "FontAwesome";
+      color: #6EBCFF;
+      display: inline-block;
+      width: 25px;
+      width: 2.5rem; }
+  /* line 177, ../sass/modules.scss */
+  .rate > li > span.rate7:before {
+    color: #ffcc33;
+    width: auto; }
+  /* line 116, ../sass/a-mixins.scss */
+  .rate > li > span.rate8:before {
+    content: "\f005\f005\f005\f005\f005\f005\f005\f005\f006\f006";
+    font-family: "FontAwesome";
+    color: #6EBCFF;
+    display: inline-block;
+    width: 25px;
+    width: 2.5rem; }
+  /* line 170, ../sass/modules.scss */
+  .ie7 .rate > li > span.rate8 {
+    background: #f9d766;
+    width: 240px; }
+    /* line 116, ../sass/a-mixins.scss */
+    .ie7 .rate > li > span.rate8:before {
+      content: "\f005\f005\f005\f005\f005\f005\f005\f005\f006\f006";
+      font-family: "FontAwesome";
+      color: #6EBCFF;
+      display: inline-block;
+      width: 25px;
+      width: 2.5rem; }
+  /* line 177, ../sass/modules.scss */
+  .rate > li > span.rate8:before {
+    color: #ffcc33;
+    width: auto; }
+  /* line 116, ../sass/a-mixins.scss */
+  .rate > li > span.rate9:before {
+    content: "\f005\f005\f005\f005\f005\f005\f005\f005\f005\f006";
+    font-family: "FontAwesome";
+    color: #6EBCFF;
+    display: inline-block;
+    width: 25px;
+    width: 2.5rem; }
+  /* line 170, ../sass/modules.scss */
+  .ie7 .rate > li > span.rate9 {
+    background: #f9d766;
+    width: 270px; }
+    /* line 116, ../sass/a-mixins.scss */
+    .ie7 .rate > li > span.rate9:before {
+      content: "\f005\f005\f005\f005\f005\f005\f005\f005\f005\f006";
+      font-family: "FontAwesome";
+      color: #6EBCFF;
+      display: inline-block;
+      width: 25px;
+      width: 2.5rem; }
+  /* line 177, ../sass/modules.scss */
+  .rate > li > span.rate9:before {
+    color: #ffcc33;
+    width: auto; }
+  /* line 116, ../sass/a-mixins.scss */
+  .rate > li > span.rate10:before {
+    content: "\f005\f005\f005\f005\f005\f005\f005\f005\f005\f005";
+    font-family: "FontAwesome";
+    color: #6EBCFF;
+    display: inline-block;
+    width: 25px;
+    width: 2.5rem; }
+  /* line 170, ../sass/modules.scss */
+  .ie7 .rate > li > span.rate10 {
+    background: #f9d766;
+    width: 300px; }
+    /* line 116, ../sass/a-mixins.scss */
+    .ie7 .rate > li > span.rate10:before {
+      content: "\f005\f005\f005\f005\f005\f005\f005\f005\f005\f005";
+      font-family: "FontAwesome";
+      color: #6EBCFF;
+      display: inline-block;
+      width: 25px;
+      width: 2.5rem; }
+  /* line 177, ../sass/modules.scss */
+  .rate > li > span.rate10:before {
+    color: #ffcc33;
+    width: auto; }
+  /* line 183, ../sass/modules.scss */
+  .rate > li > span.title {
+    width: 130px;
+    width: 13rem;
+    padding-right: 10px;
+    padding-right: 1rem;
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    line-height: 15.6px;
+    /* The Fallback */
+    font-size: 1.2rem;
+    line-height: 1.56rem;
+    font-weight: bold;
+    letter-spacing: 0; }
+    @media (max-width: 550px) {
+      /* line 183, ../sass/modules.scss */
+      .rate > li > span.title {
+        text-align: left; } }
+
+/* line 197, ../sass/modules.scss */
+.rate_info {
+  font-size: 12px;
+  line-height: 15.6px;
+  /* The Fallback */
+  font-size: 1.2rem;
+  line-height: 1.56rem;
+  margin-top: 10px;
+  margin-top: 1rem; }
+
+/* line 202, ../sass/modules.scss */
+.skills {
+  margin-top: 20px;
+  margin-top: 2rem; }
+  /* line 204, ../sass/modules.scss */
+  .skills > p > strong {
+    font-size: 16px;
+    line-height: 20.8px;
+    /* The Fallback */
+    font-size: 1.6rem;
+    line-height: 2.08rem;
+    display: inline-block;
+    margin-right: 10px;
+    margin-right: 1rem; }
+
+/* line 210, ../sass/modules.scss */
+.experience {
+  margin-top: 10px;
+  margin-top: 1rem; }
+  /* line 2, ../sass/a-mixins.scss */
+  .experience:after {
+    font-size: 0;
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    content: ".";
+    line-height: 0; }
+  /* line 13, ../sass/a-mixins.scss */
+  .ie7 .experience {
+    zoom: 1;
+    display: block; }
+  /* line 216, ../sass/modules.scss */
+  .experience > .item {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5px;
+    margin-top: 0.5rem;
+    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
+    float: left;
+    width: 48%;
+    min-height: 340px;
+    min-height: 34rem; }
+    /* line 225, ../sass/modules.scss */
+    .ie7 .experience > .item {
+      height: auto !important;
+      height: 500px; }
+    @media (max-width: 980px) {
+      /* line 216, ../sass/modules.scss */
+      .experience > .item {
+        width: 98%;
+        min-height: 0px;
+        min-height: 0rem; } }
+    /* line 233, ../sass/modules.scss */
+    .experience > .item > .title {
+      margin-left: 15px;
+      margin-left: 1.5rem;
+      margin-top: 15px;
+      margin-top: 1.5rem;
+      border-left: 2px solid #fff;
+      width: 60%;
+      background: #505050;
+      background: rgba(255, 255, 255, 0.09); }
+      /* line 239, ../sass/modules.scss */
+      .experience > .item > .title > li {
+        padding-left: 10px;
+        padding-left: 1rem; }
+        /* line 116, ../sass/a-mixins.scss */
+        .experience > .item > .title > li.position:before {
+          content: "\f0f2";
+          font-family: "FontAwesome";
+          color: #6EBCFF;
+          display: inline-block;
+          width: 25px;
+          width: 2.5rem; }
+        /* line 116, ../sass/a-mixins.scss */
+        .experience > .item > .title > li.url:before {
+          content: "\f0ac";
+          font-family: "FontAwesome";
+          color: #6EBCFF;
+          display: inline-block;
+          width: 25px;
+          width: 2.5rem; }
+        /* line 116, ../sass/a-mixins.scss */
+        .experience > .item > .title > li.director:before {
+          content: "\f0c0";
+          font-family: "FontAwesome";
+          color: #6EBCFF;
+          display: inline-block;
+          width: 25px;
+          width: 2.5rem; }
+        /* line 116, ../sass/a-mixins.scss */
+        .experience > .item > .title > li.date:before {
+          content: "\f073";
+          font-family: "FontAwesome";
+          color: #6EBCFF;
+          display: inline-block;
+          width: 25px;
+          width: 2.5rem; }
+    /* line 255, ../sass/modules.scss */
+    .experience > .item > .img {
+      width: 65px;
+      width: 6.5rem;
+      margin: 10px;
+      margin: 1rem;
+      float: right; }
+    /* line 263, ../sass/modules.scss */
+    .experience > .item > .description {
+      margin: 20px;
+      margin: 2rem;
+      text-indent: 15px;
+      text-indent: 1.5rem;
+      font-size: 14px;
+      line-height: 18.2px;
+      /* The Fallback */
+      font-size: 1.4rem;
+      line-height: 1.82rem; }
+
+/* line 270, ../sass/modules.scss */
+.portfolio_cont {
+  font-style: italic; }
+
+/* line 273, ../sass/modules.scss */
+.portfolio_view {
+  margin-top: 15px;
+  margin-top: 1.5rem;
+  background: #FFF;
+  height: 0px;
+  height: 0rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  margin-left: -10px;
+  margin-left: -1rem; }
+  /* line 280, ../sass/modules.scss */
+  .portfolio_view > .img {
+    height: 0px;
+    height: 0rem;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    /* @include opacity(70); */
+    background: #2a2a2a;
+    width: 100%;
+    overflow: auto; }
+    @media (max-width: 820px) {
+      /* line 280, ../sass/modules.scss */
+      .portfolio_view > .img {
+        overflow: hidden; } }
+    /* line 294, ../sass/modules.scss */
+    .portfolio_view > .img:hover {
+      /* @include opacity(100); */ }
+
+/* line 299, ../sass/modules.scss */
+.portfolio_filters_info {
+  margin-top: 10px;
+  margin-top: 1rem;
+  background: #505050;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  padding: 1.5rem;
+  display: inline-block; }
+  /* line 304, ../sass/modules.scss */
+  .portfolio_filters_info > .portfolio_filters_info_category {
+    font-weight: bold; }
+  /* line 307, ../sass/modules.scss */
+  .portfolio_filters_info > .portfolio_filters_info_value {
+    color: #ffcc33; }
+
+/* line 311, ../sass/modules.scss */
+.portfolio-filters {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  -ms-column-count: 2;
+  -o-column-count: 2;
+  column-count: 2; }
+  /* line 313, ../sass/modules.scss */
+  .portfolio-filters > div {
+    margin-top: 10px;
+    margin-top: 1rem;
+    display: inline-block; }
+    /* line 317, ../sass/modules.scss */
+    .portfolio-filters > div > ul > li {
+      cursor: pointer;
+      display: inline-block;
+      padding: 2px;
+      padding: 0.2rem;
+      padding-right: 8px;
+      padding-right: 0.8rem; }
+      /* line 322, ../sass/modules.scss */
+      .portfolio-filters > div > ul > li:hover {
+        background: #505050;
+        background: rgba(0, 0, 0, 0.1); }
+        /* line 324, ../sass/modules.scss */
+        .portfolio-filters > div > ul > li:hover > span {
+          color: #ffcc33; }
+      /* line 328, ../sass/modules.scss */
+      .portfolio-filters > div > ul > li > .count {
+        display: inline-block;
+        font-weight: bold;
+        width: 18px;
+        width: 1.8rem;
+        text-align: center;
+        margin-right: 5px;
+        margin-right: 0.5rem;
+        background: #505050;
+        background: rgba(255, 255, 255, 0.1);
+        font-size: 10px;
+        line-height: 17px;
+        /* The Fallback */
+        font-size: 1rem;
+        line-height: 1.7rem; }
+
+/* line 345, ../sass/modules.scss */
+.portfolio {
+  margin-top: 15px;
+  margin-top: 1.5rem; }
+  /* line 2, ../sass/a-mixins.scss */
+  .portfolio:after {
+    font-size: 0;
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    content: ".";
+    line-height: 0; }
+  /* line 13, ../sass/a-mixins.scss */
+  .ie7 .portfolio {
+    zoom: 1;
+    display: block; }
+  /* line 349, ../sass/modules.scss */
+  .portfolio > .item {
+    margin-right: 1%;
+    float: left;
+    width: 45%;
+    min-height: 235px;
+    min-height: 23.5rem;
+    background: #505050;
+    background: rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
+    padding-bottom: 5px;
+    padding-bottom: 0.5rem;
+    padding-top: 5px;
+    padding-top: 0.5rem;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-left: 2px solid #6EBCFF; }
+    @media (max-width: 800px) {
+      /* line 349, ../sass/modules.scss */
+      .portfolio > .item {
+        width: 98%;
+        min-height: 0px;
+        min-height: 0rem; } }
+    /* line 371, ../sass/modules.scss */
+    .ie7 .portfolio > .item {
+      width: 98%;
+      height: auto !important;
+      height: 500px;
+      background: none; }
+    /* line 377, ../sass/modules.scss */
+    .portfolio > .item:hover {
+      background: #2a2a2a;
+      background: rgba(0, 0, 0, 0.2);
+      border-left: 2px solid #ffcc33; }
+    /* line 381, ../sass/modules.scss */
+    .portfolio > .item > .title {
+      margin-bottom: 15px;
+      margin-bottom: 1.5rem; }
+      /* line 383, ../sass/modules.scss */
+      .portfolio > .item > .title > h3 {
+        margin: 5px;
+        margin: 0.5rem;
+        font-size: 15px;
+        line-height: 19.5px;
+        /* The Fallback */
+        font-size: 1.5rem;
+        line-height: 1.95rem; }
+      /* line 387, ../sass/modules.scss */
+      .portfolio > .item > .title > div, .portfolio > .item > .title > ul {
+        margin-left: 6%;
+        background: #505050;
+        background: rgba(255, 255, 255, 0.09);
+        padding-left: 10px;
+        width: 80%; }
+      /* line 393, ../sass/modules.scss */
+      .portfolio > .item > .title > ul > li {
+        display: inline; }
+      /* line 116, ../sass/a-mixins.scss */
+      .portfolio > .item > .title > .year:before {
+        content: "\f073";
+        font-family: "FontAwesome";
+        color: #6EBCFF;
+        display: inline-block;
+        width: 25px;
+        width: 2.5rem; }
+      /* line 116, ../sass/a-mixins.scss */
+      .portfolio > .item > .title > .url:before {
+        content: "\f0ac";
+        font-family: "FontAwesome";
+        color: #6EBCFF;
+        display: inline-block;
+        width: 25px;
+        width: 2.5rem; }
+      /* line 116, ../sass/a-mixins.scss */
+      .portfolio > .item > .title > .company:before {
+        content: "\f015";
+        font-family: "FontAwesome";
+        color: #6EBCFF;
+        display: inline-block;
+        width: 25px;
+        width: 2.5rem; }
+    /* line 406, ../sass/modules.scss */
+    .portfolio > .item > .info {
+      margin: 5px;
+      margin: 0.5rem; }
+    /* line 409, ../sass/modules.scss */
+    .portfolio > .item > .tools, .portfolio > .item > .role {
+      margin: 10px;
+      margin: 1rem;
+      margin-top: 15px;
+      margin-top: 1.5rem;
+      margin-bottom: 2px;
+      margin-bottom: 0.2rem; }
+      /* line 116, ../sass/a-mixins.scss */
+      .portfolio > .item > .tools:before, .portfolio > .item > .role:before {
+        content: "\f0ad";
+        font-family: "FontAwesome";
+        color: #6EBCFF;
+        display: inline-block;
+        width: 25px;
+        width: 2.5rem; }
+      /* line 414, ../sass/modules.scss */
+      .portfolio > .item > .tools > li, .portfolio > .item > .role > li {
+        display: inline-block;
+        padding-right: 5px;
+        padding-right: 0.5rem; }
+        /* line 417, ../sass/modules.scss */
+        .portfolio > .item > .tools > li:after, .portfolio > .item > .role > li:after {
+          content: ","; }
+        /* line 420, ../sass/modules.scss */
+        .portfolio > .item > .tools > li:last-child:after, .portfolio > .item > .role > li:last-child:after {
+          content: "."; }
+    /* line 425, ../sass/modules.scss */
+    .portfolio > .item > .role {
+      margin-top: 0px;
+      margin-top: 0rem; }
+      /* line 116, ../sass/a-mixins.scss */
+      .portfolio > .item > .role:before {
+        content: "\f0b1";
+        font-family: "FontAwesome";
+        color: #6EBCFF;
+        display: inline-block;
+        width: 25px;
+        width: 2.5rem; }
+    /* line 429, ../sass/modules.scss */
+    .portfolio > .item > .img {
+      filter: alpha(opacity=80);
+      opacity: 0.8;
+      position: relative;
+      overflow: hidden;
+      cursor: auto;
+      overflow: hidden;
+      display: none;
+      background: #FFF; }
+      /* line 437, ../sass/modules.scss */
+      .portfolio > .item > .img:hover {
+        filter: alpha(opacity=100);
+        opacity: 1; }
+      /* line 443, ../sass/modules.scss */
+      .portfolio > .item > .img > span {
+        position: absolute;
+        bottom: 0;
+        z-index: 100;
+        font-size: 14px;
+        line-height: 18.2px;
+        /* The Fallback */
+        font-size: 1.4rem;
+        line-height: 1.82rem;
+        display: block;
+        padding: 5px;
+        padding: 0.5rem;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        background: #505050;
+        background: rgba(0, 0, 0, 0.8); }
+      /* line 453, ../sass/modules.scss */
+      .portfolio > .item > .img:hover > span {
+        filter: alpha(opacity=100);
+        opacity: 1; }
+
+/* line 459, ../sass/modules.scss */
+.i-equipment {
+  margin-left: 3%;
+  margin: 15px;
+  margin: 1.5rem; }
+  /* line 116, ../sass/a-mixins.scss */
+  .i-equipment > li:before {
+    content: "\f0a9";
+    font-family: "FontAwesome";
+    color: #6EBCFF;
+    display: inline-block;
+    width: 25px;
+    width: 2.5rem; }
+  /* line 464, ../sass/modules.scss */
+  .i-equipment > li > span {
+    display: inline-block;
+    margin-right: 10px;
+    margin-right: 1rem;
+    color: #ffcc33; }
+
+/* line 473, ../sass/modules.scss */
+.send_cont > form > div {
+  margin-top: 5px;
+  margin-top: 0.5rem; }
+  /* line 475, ../sass/modules.scss */
+  .send_cont > form > div > label {
+    display: inline-block;
+    width: 120px;
+    width: 12rem; }
+  /* line 479, ../sass/modules.scss */
+  .send_cont > form > div > input, .send_cont > form > div > textarea {
+    border: 1px solid #fff;
+    padding: 2px;
+    padding: 0.2rem;
+    background: #fffbf0;
+    -webkit-border-radius: 3px 3px;
+    -moz-border-radius: 3px / 3px;
+    border-radius: 3px / 3px;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px #FFF;
+    box-shadow: 0 0 5px #FFF; }
+    /* line 487, ../sass/modules.scss */
+    .send_cont > form > div > input:hover, .send_cont > form > div > textarea:hover {
+      -moz-box-shadow: 0 0 5px #ffdd77;
+      -webkit-box-shadow: 0 0 5px #ffdd77;
+      box-shadow: 0 0 5px #ffdd77; }
+/* line 495, ../sass/modules.scss */
+.send_cont > form > .text > textarea {
+  width: 100%; }
+/* line 500, ../sass/modules.scss */
+.send_cont > form > .submit > input {
+  background: #2077c1;
+  padding: 5px;
+  padding: 0.5rem;
+  padding-left: 25px;
+  padding-left: 2.5rem;
+  padding-right: 25px;
+  padding-right: 2.5rem;
+  color: #fff; }
+  /* line 506, ../sass/modules.scss */
+  .send_cont > form > .submit > input:active {
+    color: #ffcc33;
+    background: #295e8c; }

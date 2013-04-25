@@ -1,0 +1,35 @@
+@import "config.scss";
+.is-fixed {
+	position: fixed;
+	@include a-dim("top", 20);
+	@include a-bgOpacity(#fff, 0.1, #303030);
+
+	@media (max-width: 768px) {
+		position: relative;
+		@include a-dim("top", 0);
+		@include a-bgOpacity(#fff, 0, none);
+	}
+
+	&.navigation  {
+		@include a-dim("margin-left", -10);
+		@include a-dim("padding", 10);
+		@include a-dim("padding-left", 20);
+		border-left:3px solid #6EBCFF;
+		@media (max-width:768px) {
+			@include a-dim("margin-left", 0);
+			@include a-dim("padding", 0);
+			@include a-dim("padding-left", 0);
+			border-left:none;
+		}
+	}
+}
+.is-shown {
+	display: block;
+	&.portfolio_view, &.portfolio_view>.img {
+		/* @include a-dim("padding", 3); */
+		@include a-dim("height", 400);
+	}
+}
+.is-hidden {
+	display: none;
+}

@@ -1,0 +1,75 @@
+@import "config.scss";
+
+/* @include a-font("Ubuntu Mono", "ubuntumono-r-webfont", "ubuntumono-b-webfont", "ubuntumono-ri-webfont", "ubuntumono-bi-webfont", "../fonts/UbuntuMono/"); */
+@include a-font("Ubuntu", "ubuntu-l-webfont", "ubuntu-b-webfont", "ubuntu-ri-webfont", "ubuntu-bi-webfont", "../fonts/Ubuntu/");
+@include a-font("Bubblegum Sans", "bubblegumsans-regular-webfont");
+@include a-font("FontAwesome", "fontawesome-webfont");
+@include a-font("Social", "socialico-webfont");
+/* @include a-font("Webissimo", "sansus-webissimo-regular-webfont"); */
+
+html {
+	font-size: 62.5%; /* Sets up the Base 10 stuff */
+}
+body {
+	color:$site-color;
+	font-family: "Ubuntu", "Arial", sans-serif;
+	@include a-fontSize(13);
+	@include a-bgBase('../img/bg_noise.png');
+}
+strong {
+	font-weight: bold;
+	color:$subtitles-color;
+}
+h1 {
+	@include a-fontSize(46);
+	font-family: "Bubblegum Sans", sans;
+	@media (max-width: 550px) {
+		text-align: center;
+		@include a-dim("margin-top", 10);
+	}
+	@media (max-width: 320px) {
+		text-align: left;
+	}
+}
+h2 {
+	@include a-fontSize(36);
+	font-family: "Bubblegum Sans", sans;
+	@include a-bgOpacity(#fff, 0.03, #303030);
+	@include a-dim("padding-left", 10);
+	@include a-dim("margin-top", 10);
+	@include a-dim("margin-bottom", 10);
+	@include a-dim("margin-left", -10);
+	@media (max-width: 550px) {
+		text-align: center;
+	}
+}
+h3 {
+			font-weight: bold;
+			color:$subtitles-color;
+			/* font-family: 'Bubblegum Sans', sans-serif; */
+			@include a-fontSize(16);
+			text-shadow: 1px 1px 0 #000000;
+    		filter: dropshadow(color=#000000, offx=2, offy=2);
+}
+h4 {
+			font-weight: bold;
+			color:$filters-title-color;
+			@include a-fontSize(12);
+			text-shadow: 1px 1px 0 #000000;
+    		filter: dropshadow(color=#000000, offx=2, offy=2);
+}
+a {
+	@include link-colors(#FFECB3, #C6FFB3, #B3FFC6, #ECFFB3, #C6FFB3);
+	@include hover-link;
+	outline: none;
+	&:hover {
+		text-decoration: underline;
+	}
+	&:focus {
+		background: #B82E00;
+		color: #FFF;
+	}
+}
+p{
+	padding-top: 10px;
+}
