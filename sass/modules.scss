@@ -255,6 +255,7 @@ ul.me {
 		>.img {
 			@include a-dim("width", 65);
 			@include a-dim("margin", 10);
+			opacity: 0.6;
 			float:right;
 			>img {
 				@extend %imgResponsive;

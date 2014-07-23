@@ -140,7 +140,20 @@
 		<div class="portfolio">			
 			<xsl:for-each select="item">				
 				<xsl:variable name="id" select="position()"/>
-				<div class="item" id="portfolio-{$id}">
+
+                <xsl:variable name="screenshot">
+                    <xsl:choose>
+                        <xsl:when test="screenshot != ''">
+                            <xsl:value-of select="screenshot"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="url"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
+
+
+				<div class="item" id="portfolio-{$id}" data-screenshot="{$screenshot}">
 					<div class="title">
 						<h3><xsl:value-of select="title"/></h3>
 						<div class="url"><xsl:value-of select="url"/></div>						
@@ -248,7 +261,8 @@
 					<xsl:value-of select="name()"/>
 				</xsl:attribute>
 				<h3><xsl:value-of select="./company"/></h3>
-				<div class="img"><img src="./img/logo.png" alt="" /></div>
+                <xsl:variable name="logo" select="./logo" />
+				<div class="img"><img src="./img/company/{logo}" alt="" /></div>
 				<ul class="title">
 					<xsl:for-each select="title/*">
 						<xsl:variable name="class" select="name()"/>

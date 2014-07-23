@@ -5,7 +5,7 @@ jQuery.fn.extend({
 	    $(list).find('.item').each(function() {
 		  $(this).click(function() {
 		  	$(viewer).addClass('is-shown');
-		  	var portfolioID = this.id;
+		  	var portfolioID = this.getAttribute("data-screenshot");
 		  	$(viewer).find(".img").html("<img src='./img/portfolio/"+portfolioID+".png' />");
 	  		  var position = $(viewer).offset();
 			  if ($(document).scrollTop() > position.top) {
