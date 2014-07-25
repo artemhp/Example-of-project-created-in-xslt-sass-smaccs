@@ -85,12 +85,12 @@ h1 > span {
 /* line 38, ../sass/modules.scss */
 .menu > .navigation > li > a {
   color: white;
-  font-family: 'Bubblegum Sans', sans-serif;
-  font-size: 21px;
-  line-height: 27.3px;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 24px;
+  line-height: 31.2px;
   /* The Fallback */
-  font-size: 2.1rem;
-  line-height: 2.73rem;
+  font-size: 2.4rem;
+  line-height: 3.12rem;
   display: block;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
@@ -904,8 +904,8 @@ ul.me > li > span {
   margin-bottom: 0.5rem;
   float: left;
   width: 48%;
-  min-height: 340px;
-  min-height: 34rem;
+  min-height: 360px;
+  min-height: 36rem;
 }
 /* line 225, ../sass/modules.scss */
 .ie7 .experience > .item {

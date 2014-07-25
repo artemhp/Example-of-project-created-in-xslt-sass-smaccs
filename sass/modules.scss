@@ -37,8 +37,8 @@ h1 > span {
 		>li {
 			>a {
 				color:$menuColor;
-				font-family: 'Bubblegum Sans', sans-serif;
-				@include a-fontSize(21);
+				font-family: 'Cuprum', sans-serif;
+				@include a-fontSize(24);
 				@media (max-width: 768px) {
 					@include a-fontSize(16);
 				}
@@ -221,7 +221,7 @@ ul.me {
 		@include a-dim("margin-bottom", 5);
 		float:left;
 		width:48%;
-		@include a-dim("min-height", 340);
+		@include a-dim("min-height", 360);
 		.ie7 & {
 			height:auto !important;
   			height:500px;

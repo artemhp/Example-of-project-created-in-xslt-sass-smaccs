@@ -2,7 +2,7 @@
 
 /* @include a-font("Ubuntu Mono", "ubuntumono-r-webfont", "ubuntumono-b-webfont", "ubuntumono-ri-webfont", "ubuntumono-bi-webfont", "../fonts/UbuntuMono/"); */
 @include a-font("Ubuntu", "ubuntu-l-webfont", "ubuntu-b-webfont", "ubuntu-ri-webfont", "ubuntu-bi-webfont", "../fonts/Ubuntu/");
-@include a-font("Bubblegum Sans", "bubblegumsans-regular-webfont");
+@include a-font("Cuprum", "cuprum-webfont", flase, false, false, "../fonts/Cuprum/");
 @include a-font("FontAwesome", "fontawesome-webfont");
 @include a-font("Social", "socialico-webfont");
 /* @include a-font("Webissimo", "sansus-webissimo-regular-webfont"); */
@@ -21,8 +21,8 @@ strong {
 	color:$subtitles-color;
 }
 h1 {
-	@include a-fontSize(46);
-	font-family: "Bubblegum Sans", sans;
+	@include a-fontSize(54);
+	font-family: "Cuprum", sans;
 	@media (max-width: 550px) {
 		text-align: center;
 		@include a-dim("margin-top", 10);
@@ -33,7 +33,7 @@ h1 {
 }
 h2 {
 	@include a-fontSize(36);
-	font-family: "Bubblegum Sans", sans;
+	font-family: "Cuprum", sans;
 	@include a-bgOpacity(#fff, 0.03, #303030);
 	@include a-dim("padding-left", 10);
 	@include a-dim("margin-top", 10);
@@ -72,4 +72,5 @@ a {
 }
 p{
 	padding-top: 10px;
+	line-height: 1.5;
 }

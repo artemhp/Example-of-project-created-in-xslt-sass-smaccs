@@ -129,10 +129,18 @@ $fileName3 Path to Italic
 $fileName4 Path to Bold and Italic
 */
 @font-face {
-  font-family: "Bubblegum Sans";
-  src: url("../fonts/bubblegumsans-regular-webfont.eot");
-  src: url("../fonts/bubblegumsans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bubblegumsans-regular-webfont.woff") format("woff"), url("../fonts/bubblegumsans-regular-webfont.ttf") format("truetype"), url("../fonts/bubblegumsans-regular-webfont.svg#bubblegumsans-regular-webfont") format("svg");
+  font-family: "Cuprum";
+  src: url("../fonts/Cuprum/cuprum-webfont.eot");
+  src: url("../fonts/Cuprum/cuprum-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Cuprum/cuprum-webfont.woff") format("woff"), url("../fonts/Cuprum/cuprum-webfont.ttf") format("truetype"), url("../fonts/Cuprum/cuprum-webfont.svg#cuprum-webfont") format("svg");
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cuprum";
+  src: url("../fonts/Cuprum/flase.eot");
+  src: url("../fonts/Cuprum/flase.eot?#iefix") format("embedded-opentype"), url("../fonts/Cuprum/flase.woff") format("woff"), url("../fonts/Cuprum/flase.ttf") format("truetype"), url("../fonts/Cuprum/flase.svg#flase") format("svg");
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -194,12 +202,12 @@ strong {
 
 /* line 23, ../sass/base.scss */
 h1 {
-  font-size: 46px;
-  line-height: 59.8px;
+  font-size: 54px;
+  line-height: 70.2px;
   /* The Fallback */
-  font-size: 4.6rem;
-  line-height: 5.98rem;
-  font-family: "Bubblegum Sans", sans;
+  font-size: 5.4rem;
+  line-height: 7.02rem;
+  font-family: "Cuprum", sans;
 }
 @media (max-width: 550px) {
   /* line 23, ../sass/base.scss */
@@ -223,7 +231,7 @@ h2 {
   /* The Fallback */
   font-size: 3.6rem;
   line-height: 4.68rem;
-  font-family: "Bubblegum Sans", sans;
+  font-family: "Cuprum", sans;
   background: #303030;
   background: rgba(255, 255, 255, 0.03);
   padding-left: 10px;
@@ -308,6 +316,7 @@ a:focus {
 /* line 73, ../sass/base.scss */
 p {
   padding-top: 10px;
+  line-height: 1.5;
 }
 
 /* line 18, ../sass/a-mixins.scss */
@@ -497,12 +506,12 @@ h1 > span {
 /* line 38, ../sass/modules.scss */
 .menu > .navigation > li > a {
   color: white;
-  font-family: 'Bubblegum Sans', sans-serif;
-  font-size: 21px;
-  line-height: 27.3px;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 24px;
+  line-height: 31.2px;
   /* The Fallback */
-  font-size: 2.1rem;
-  line-height: 2.73rem;
+  font-size: 2.4rem;
+  line-height: 3.12rem;
   display: block;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
@@ -1316,8 +1325,8 @@ ul.me > li > span {
   margin-bottom: 0.5rem;
   float: left;
   width: 48%;
-  min-height: 340px;
-  min-height: 34rem;
+  min-height: 360px;
+  min-height: 36rem;
 }
 /* line 225, ../sass/modules.scss */
 .ie7 .experience > .item {
