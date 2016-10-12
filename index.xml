@@ -68,15 +68,13 @@
                 </p>
 			</content>
 		</item>
+
+
+
+
 		<item name="Skills" title_display="show">
 			<rate>
 				<item title="HTML/CSS" rate="9">
-					Ranking above is my own evaluation of my skills in reference to each other. 
-					So, the highest score has HTML/CSS because in my opinion developing layout 
-					is the best I do, and with the knowledge of JavaScript I'm pretty good 
-					front end developer.
-				</item>				
-				<item title="XML/XSLT" rate="7">
 					Ranking above is my own evaluation of my skills in reference to each other. 
 					So, the highest score has HTML/CSS because in my opinion developing layout 
 					is the best I do, and with the knowledge of JavaScript I'm pretty good 
@@ -89,9 +87,8 @@
 					front end developer.
 				</item>
 				<item title="Preprocessors" rate="9">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, possimus 
-					dolorum tempora expedita omnis sapiente ea nihil magni quibusdam perferendis? 
-					Ea, aut, reprehenderit enim expedita fuga eveniet mollitia velit nisi.
+					For optimize development process use preprocessors JS (CoffeeScript, TypeScript), html (haml, jade),
+					styles (less, scss).
 				</item>
 				<item title="PHP" rate="7">
 					I have experience of PHP-programing above 5 years. In this time 
@@ -101,42 +98,30 @@
 					CMSs like Wordpress, Magento and adjusting modules.
 				</item>
 				<item title="JavaScript" rate="7">
-					Learning JavaScript I started later then PHP but in my current job 
-					I coding in JS much more then in PHP. There are some scripts which 
-					I proud of and I publish it on my personal web-site.
-				</item>
-				<item title="Documentation" rate="9">
-					Architecto earum aspernatur tempora nesciunt cum amet temporibus aliquam non. 
-					Sapiente, quas, dignissimos animi sunt quidem inventore eligendi aliquid 
-					recusandae et fuga quibusdam distinctio earum vero odit iure aperiam tempore!
+					Knowledge and experience in pure JS, nodejs, mobile applications.
+					Crossbrowser development.
+					Unit tesing code.
+					Working with different frameworks.
 				</item>
 				<item title="Windows" rate="7">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, voluptas, 
-					aut dignissimos expedita hic sint atque quo at tempora eligendi eos nemo 
-					dolore aspernatur debitis excepturi quaerat delectus! Obcaecati, explicabo.
+					.NET project  development and support. Adjustment web-sites on IIS. Internet Explorer 6 html/css
+					markup. Have experience in development product based on Microsoft since working in Svitla Systems (2012).
 				</item>
 				<item title="UNIX" rate="8">
-					If prefer work in Linux environmental as server and desktop. Since I have 
-					been a student I support Linux servers, later support hostings of Internet 
-					Shops and install one server at parents home. As for me - monitoring Linux 
+					I prefer work in Linux environmental as server and desktop. Since I have
+					been a student I support Linux servers, later support hostings of Internet
+					Shops and install one server at parents home. As for me - monitoring Linux
 					servers is more easily then Windows.
 				</item>
 				<item title="Design" rate="7">
-					Et, molestiae, debitis, atque quaerat vitae cumque commodi deleniti 
-					voluptatum distinctio recusandae esse quibusdam ad sint neque nobis eaque 
-					assumenda deserunt suscipit hic quas facere dignissimos placeat architecto 
-					adipisci consectetur.
+					All my pet projects (including this CV web-site) is designed by my own. Also have experience as
+					a desiginer in companies - has developed corporate style for main products.
 				</item>
-				<item title="SEO" rate="5">
-					Nihil, voluptatibus, iusto fugiat quis veritatis aliquid laboriosam obcaecati 
-					quisquam nobis minima aliquam voluptatum quod vel! Placeat, sed, sint, 
-					doloremque ut consectetur odio illo nesciunt saepe modi voluptatum expedita 
-					delectus.
+				<item title='AngularJS' rate='8'>
+					Develop complex applications. Architecture and generic solutions for bunch of projects.
 				</item>
-				<item title="QA" rate="6">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, eaque 
-					suscipit provident vel beatae sint quidem! Eveniet, quas ullam nihil commodi 
-					debitis repudiandae veniam minus itaque esse fuga? Deleniti, quia.
+				<item title='Cordova/PhoneGap' rate='8'>
+					Develop complex applications. Architecture and generic solutions for bunch of projects.
 				</item>
 			</rate>		
 		</item>
@@ -156,17 +141,9 @@
 						<date>November 2014 — Today</date>
 					</title>
 					<description>
-						<p>
-							Architecturing web-applications for company's main products.
-						</p>
-						<p>
-							Developing web application base on
-							AngularJS for different browsers and devices.
-						</p>
-						<p>
-							Responsible for creating a design for web application in
-							Google Material Design, preparation products for the demo.
-						</p>
+						<p>Architecturing web-applications for company's main products.</p>
+						<p>Developing web application base on AngularJS for different browsers and devices.</p>
+						<p>Responsible for creating a design for web application in Google Material Design, preparation products for the demo.</p>
 					</description>
 				</item>
 				<item>
