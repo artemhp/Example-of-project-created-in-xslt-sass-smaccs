@@ -182,6 +182,7 @@
 			</xsl:for-each>
 		</div>		
 	</xsl:template>
+
 	<xsl:template match="rate" mode="content_block">
 		<ul>
 			<xsl:attribute name="class">
@@ -207,6 +208,7 @@
 			</xsl:for-each>
 		</div>					
 	</xsl:template>
+
 	<!-- Social Buttons -->
 	<xsl:template match="soc" mode="content_block">
 		<ul>

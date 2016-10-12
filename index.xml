@@ -8,7 +8,7 @@
 	</myphoto>
 	<myinfo>
 		<name>Artem Deykun</name>
-		<year>26 years</year>
+		<year>28 years</year>
 		<position>Front-End Developer</position>
 		<phone>+380930149790</phone>
 		<mail>artem@deykun.com</mail>
@@ -24,9 +24,9 @@
 				<item title="City">Kiyv</item>
 				<item title="Birthday">05.05.1988</item>
 				<item title="Civil status">married to Ludmila Deykun</item>
-				<item title="Specialization">Web-developer, System Administrator</item>
+				<item title="Specialization">Front-End Developer</item>
 				<item title="Work/Position">EcomDev / Front End Developer</item>
-				<item title="Work Address">Ukraine. Kiyv. Mashinobudivska street</item>
+				<item title="Work Address">Ukraine. Kiyv.</item>
 				<item title="Languages">Ukrainian, Russian, English</item>
 				<item title="Phone">mobile: +380930149790; skype: artemhp</item>
 				<item title="E-mail">artem@deykun.com</item>
@@ -146,6 +146,29 @@
 				For last 3 years I have concentrated all my forces and skill in front-end development.</p>
 			</content>
 			<experience>
+				<item>
+					<company>Zorallabs</company>
+					<logo>zoral.png</logo>
+					<title>
+						<position>Front-End Developer</position>
+						<url>zorallabs.com</url>
+						<director>Alan Hambrook</director>
+						<date>November 2014 — Today</date>
+					</title>
+					<description>
+						<p>
+							Architecturing web-applications for company's main products.
+						</p>
+						<p>
+							Developing web application base on
+							AngularJS for different browsers and devices.
+						</p>
+						<p>
+							Responsible for creating a design for web application in
+							Google Material Design, preparation products for the demo.
+						</p>
+					</description>
+				</item>
 				<item>
 					<company>EcomDev</company>					
 					<logo>ecomdev.png</logo>
